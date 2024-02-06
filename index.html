@@ -7,13 +7,16 @@
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="project.css">
     <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="modalstyle.css">
+    <title>Game Developer | Murilo Glasser</title>
+    <link rel="icon" href="Icos/Gamepad.ico" type="image/x-icon">
 </head>
 
 <body>
     <header class="header-container">
         <img class="header-image" src="Images/Profile.png" alt="Sua Foto">
-        <h1 style="font-size:29px; margin-top:13px">Murilo Glasser</h1>
-        <p style="font-size:19px; margin-top:-5px">Game Developer</p>
+        <h1 style="font-size:25px; margin-top:0px">Murilo Glasser</h1>
+        <p style="font-size:19px; margin-top:-10px">Game Developer</p>
 
         <a href="https://www.linkedin.com/in/murilo-glasser-718924207/" target="_blank" class="social-icon linkedin">
             <img src="Images/Linkedin.png" alt="LinkedIn">
@@ -21,14 +24,17 @@
         <a href="https://github.com/muriloglasser" target="_blank" class="social-icon github" style="margin-left: 6px">
             <img src="Images/Git.png" alt="Github">
         </a>
+
+        <a href="https://drive.google.com/file/d/1AFzeGMNF4_L9Id-kR-lMRKRi4pIKtIeK/view?usp=sharing" target="_blank" class="social-icon github" style="margin-left: 6px">
+            <img src="Images/CV.png" alt="Github">
+        </a>
     </header>
 
     <div class="white-divider"></div>
 
     <section>
-
         <div class="project">
-            <img src="Images/CK.jpg" id="project1" onmouseover="changeImage('project1', 'Gifs/CK-hover.gif')" onmouseout="changeImage('project1', 'Images/CK.jpg')">
+            <img src="Images/CK.jpg" id="project1" onclick="openModal('project1')" onmouseover="changeImage('project1', 'Gifs/CK-hover.gif')" onmouseout="changeImage('project1', 'Images/CK.jpg')">
             <div class="project-content">
                 <p>
                     <span class="tag">UNITY</span>
@@ -49,7 +55,7 @@
         </div>
 
         <div class="project">
-            <img src="Images/MBS.png" id="project2" onmouseover="changeImage('project2', 'Gifs/MBS-hover.gif')" onmouseout="changeImage('project2', 'Images/MBS.png')">
+            <img src="Images/MBS.png" id="project2" onclick="openModal('project2')" onmouseover="changeImage('project2', 'Gifs/MBS-hover.gif')" onmouseout="changeImage('project2', 'Images/MBS.png')">
             <div class="project-content">
                 <p>
                     <span class="tag">UNITY</span>
@@ -72,7 +78,7 @@
         </div>
 
         <div class="project">
-            <img src="Images/FB.png" id="project3" onmouseover="changeImage('project3', 'Gifs/FB-hover.gif')" onmouseout="changeImage('project3', 'Images/FB.png')">
+            <img src="Images/FB.png" id="project3" onclick="openModal('project3')" onmouseover="changeImage('project3', 'Gifs/FB-hover.gif')" onmouseout="changeImage('project3', 'Images/FB.png')">
             <div class="project-content">
                 <p>
                     <span class="tag">UNITY</span>
@@ -96,7 +102,7 @@
         </div>
 
         <div class="project">
-            <img src="Images/JT.png" id="project4" onmouseover="changeImage('project4', 'Gifs/JT-hover.gif')" onmouseout="changeImage('project4', 'Images/JT.png')">
+            <img src="Images/JT.png" id="project4" onclick="openModal('project4')" onmouseover="changeImage('project4', 'Gifs/JT-hover.gif')" onmouseout="changeImage('project4', 'Images/JT.png')">
             <div class="project-content">
                 <p>
                     <span class="tag">UNITY</span>
@@ -118,7 +124,7 @@
         </div>
 
         <div class="project">
-            <img src="Images/BQ.png" id="project5" onmouseover="changeImage('project5', 'Gifs/BQ-hover.gif')" onmouseout="changeImage('project5', 'Images/BQ.png')">
+            <img src="Images/BQ.png" id="project5" onclick="openModal('project5')" onmouseover="changeImage('project5', 'Gifs/BQ-hover.gif')" onmouseout="changeImage('project5', 'Images/BQ.png')">
             <div class="project-content">
                 <p>
                     <span class="tag">UNITY</span>
@@ -142,7 +148,7 @@
         </div>
 
         <div class="project">
-            <img src="Images/TL.png" id="project6" onmouseover="changeImage('project6', 'Gifs/TL-hover.gif')" onmouseout="changeImage('project6', 'Images/TL.png')">
+            <img src="Images/TL.png" id="project6" onclick="openModal('project6')" onmouseover="changeImage('project6', 'Gifs/TL-hover.gif')" onmouseout="changeImage('project6', 'Images/TL.png')">
             <div class="project-content">
                 <p>
                     <span class="tag">UNITY</span>
@@ -164,7 +170,7 @@
         </div>
 
         <div class="project">
-            <img src="Images/JP.png" id="project7" onmouseover="changeImage('project7', 'Gifs/JP-hover.gif')" onmouseout="changeImage('project7', 'Images/JP.png')">
+            <img src="Images/JP.png" id="project7" onclick="openModal('project7')" onmouseover="changeImage('project7', 'Gifs/JP-hover.gif')" onmouseout="changeImage('project7', 'Images/JP.png')">
             <div class="project-content">
                 <p>
                     <span class="tag">UNITY</span>
@@ -186,7 +192,7 @@
         </div>
 
         <div class="project">
-            <img src="Images/FF.png" id="project8" onmouseover="changeImage('project8', 'Gifs/FF-hover.gif')" onmouseout="changeImage('project8', 'Images/FF.png')">
+            <img src="Images/FF.png" id="project8" onclick="openModal('project8')" onmouseover="changeImage('project8', 'Gifs/FF-hover.gif')" onmouseout="changeImage('project8', 'Images/FF.png')">
             <div class="project-content">
                 <p>
                     <span class="tag">UNITY</span>
@@ -208,7 +214,7 @@
         </div>
 
         <div class="project">
-            <img src="Images/CP.png" id="project9" onmouseover="changeImage('project9', 'Gifs/CP-hover.gif')" onmouseout="changeImage('project9', 'Images/CP.png')">
+            <img src="Images/CP.png" id="project9" onclick="openModal('project9')" onmouseover="changeImage('project9', 'Gifs/CP-hover.gif')" onmouseout="changeImage('project9', 'Images/CP.png')">
             <div class="project-content">
                 <p>
                     <span class="tag">UNITY</span>
@@ -230,7 +236,7 @@
         </div>
 
         <div class="project">
-            <img src="Images/SA.png" id="project10" onmouseover="changeImage('project10', 'Gifs/SA-hover.gif')" onmouseout="changeImage('project10', 'Images/SA.png')">
+            <img src="Images/SA.png" id="project10" onclick="openModal('project10')" onmouseover="changeImage('project10', 'Gifs/SA-hover.gif')" onmouseout="changeImage('project10', 'Images/SA.png')">
             <div class="project-content">
                 <p>
                     <span class="tag">UNITY</span>
@@ -254,7 +260,7 @@
 
 
         <div class="project">
-            <img src="Images/LE.png" id="project11" onmouseover="changeImage('project11', 'Gifs/LE-hover.gif')" onmouseout="changeImage('project11', 'Images/LE.png')">
+            <img src="Images/LE.png" id="project11" onclick="openModal('project11')" onmouseover="changeImage('project11', 'Gifs/LE-hover.gif')" onmouseout="changeImage('project11', 'Images/LE.png')">
             <div class="project-content">
                 <p>
                     <span class="tag">UNITY</span>
@@ -276,7 +282,7 @@
         </div>
 
         <div class="project">
-            <img src="Images/MC.jpg" id="project12" onmouseover="changeImage('project12', 'Gifs/MC-hover.gif')" onmouseout="changeImage('project12', 'Images/MC.jpg')">
+            <img src="Images/MC.jpg" id="project12" onclick="openModal('project12')" onmouseover="changeImage('project12', 'Gifs/MC-hover.gif')" onmouseout="changeImage('project12', 'Images/MC.jpg')">
             <div class="project-content">
                 <p>
                     <span class="tag">UNITY</span>
@@ -297,25 +303,261 @@
             </div>
         </div>
 
-
-
     </section>
 
     <script>
+
         function changeImage(projectId, imageUrl) {
             var projectElement = document.getElementById(projectId).src = imageUrl;
-
         }
+
+        function openModal(projectId) {
+            var modal = document.getElementById("myModal");
+            var modalContent = document.getElementById("modalContent");
+
+            // Update modal content based on the project clicked
+            var projectContent = getProjectContent(projectId); // Implement this function
+            modalContent.innerHTML = projectContent;
+
+            modal.style.display = "block";
+        }
+
+        function closeModal() {
+            var modal = document.getElementById("myModal");
+            modal.style.display = "none";
+
+            var youtubeVideo = document.getElementById("youtubeVideo");
+            youtubeVideo.src = "";
+            modal.style.display = "none";
+        }
+
+        function getProjectContent(projectId) {
+
+            var videoId; // Defina o ID do vídeo do YouTube para cada projeto
+            var projectContent;
+
+            // Determine o ID do vídeo com base no projeto
+            switch (projectId) {
+                case 'project1':
+                    videoId = 'HFdBSmzKYks?si=IBT3jPlfA9A22kUT';
+                    projectContent = `
+                    <h2>COBRA KAI 2</h2>                
+                    <div class="project-video">
+                        <iframe id="youtubeVideo" width="560" height="315" src="https://www.youtube.com/embed/${videoId}" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="project-description">
+                    <p>Make your choice – Eagle Fang, Cobra Kai, or Miyagi-do – marks the beginning of your journey. It's up to you to recruit the most powerful team, master your fighting style, and battle to establish your dojo's legacy as the All Valley Karate Grand Champion.</p>
+                    </div>
+                    <div class="project-links">
+                        <h2>Links</h2>
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                    </div>
+`                   ;
+                    break;
+                case 'project2':
+                    videoId = 'HFdBSmzKYks?si=IBT3jPlfA9A22kUT';
+                    projectContent = `
+                    <h2>COBRA KAI 2</h2>                
+                    <div class="project-video">
+                        <iframe id="youtubeVideo" width="560" height="315" src="https://www.youtube.com/embed/${videoId}" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="project-description">
+                    <p>Make your choice – Eagle Fang, Cobra Kai, or Miyagi-do – marks the beginning of your journey. It's up to you to recruit the most powerful team, master your fighting style, and battle to establish your dojo's legacy as the All Valley Karate Grand Champion.</p>
+                    </div>
+                    <div class="project-links">
+                        <h2>Links</h2>
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                    </div>
+`                   ;
+                    break;
+                case 'project3':
+                    videoId = 'HFdBSmzKYks?si=IBT3jPlfA9A22kUT';
+                    projectContent = `
+                    <h2>COBRA KAI 2</h2>                
+                    <div class="project-video">
+                        <iframe id="youtubeVideo" width="560" height="315" src="https://www.youtube.com/embed/${videoId}" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="project-description">
+                    <p>Make your choice – Eagle Fang, Cobra Kai, or Miyagi-do – marks the beginning of your journey. It's up to you to recruit the most powerful team, master your fighting style, and battle to establish your dojo's legacy as the All Valley Karate Grand Champion.</p>
+                    </div>
+                    <div class="project-links">
+                        <h2>Links</h2>
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                    </div>
+`                   ;
+                    break;
+                case 'project4':
+                    videoId = 'HFdBSmzKYks?si=IBT3jPlfA9A22kUT';
+                    projectContent = `
+                    <h2>COBRA KAI 2</h2>                
+                    <div class="project-video">
+                        <iframe id="youtubeVideo" width="560" height="315" src="https://www.youtube.com/embed/${videoId}" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="project-description">
+                    <p>Make your choice – Eagle Fang, Cobra Kai, or Miyagi-do – marks the beginning of your journey. It's up to you to recruit the most powerful team, master your fighting style, and battle to establish your dojo's legacy as the All Valley Karate Grand Champion.</p>
+                    </div>
+                    <div class="project-links">
+                        <h2>Links</h2>
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                    </div>
+`                   ;
+                    break;
+                case 'project5':
+                    videoId = 'HFdBSmzKYks?si=IBT3jPlfA9A22kUT';
+                    projectContent = `
+                    <h2>COBRA KAI 2</h2>                
+                    <div class="project-video">
+                        <iframe id="youtubeVideo" width="560" height="315" src="https://www.youtube.com/embed/${videoId}" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="project-description">
+                    <p>Make your choice – Eagle Fang, Cobra Kai, or Miyagi-do – marks the beginning of your journey. It's up to you to recruit the most powerful team, master your fighting style, and battle to establish your dojo's legacy as the All Valley Karate Grand Champion.</p>
+                    </div>
+                    <div class="project-links">
+                        <h2>Links</h2>
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                    </div>
+`                   ;
+                    break;
+                case 'project6':
+                    videoId = 'HFdBSmzKYks?si=IBT3jPlfA9A22kUT';
+                    projectContent = `
+                    <h2>COBRA KAI 2</h2>                
+                    <div class="project-video">
+                        <iframe id="youtubeVideo" width="560" height="315" src="https://www.youtube.com/embed/${videoId}" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="project-description">
+                    <p>Make your choice – Eagle Fang, Cobra Kai, or Miyagi-do – marks the beginning of your journey. It's up to you to recruit the most powerful team, master your fighting style, and battle to establish your dojo's legacy as the All Valley Karate Grand Champion.</p>
+                    </div>
+                    <div class="project-links">
+                        <h2>Links</h2>
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                    </div>
+`                   ;
+                    break;
+                case 'project7':
+                    videoId = 'HFdBSmzKYks?si=IBT3jPlfA9A22kUT';
+                    projectContent = `
+                    <h2>COBRA KAI 2</h2>                
+                    <div class="project-video">
+                        <iframe id="youtubeVideo" width="560" height="315" src="https://www.youtube.com/embed/${videoId}" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="project-description">
+                    <p>Make your choice – Eagle Fang, Cobra Kai, or Miyagi-do – marks the beginning of your journey. It's up to you to recruit the most powerful team, master your fighting style, and battle to establish your dojo's legacy as the All Valley Karate Grand Champion.</p>
+                    </div>
+                    <div class="project-links">
+                        <h2>Links</h2>
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                    </div>
+`                   ;
+                    break;
+                case 'project8':
+                    videoId = 'HFdBSmzKYks?si=IBT3jPlfA9A22kUT';
+                    projectContent = `
+                    <h2>COBRA KAI 2</h2>                
+                    <div class="project-video">
+                        <iframe id="youtubeVideo" width="560" height="315" src="https://www.youtube.com/embed/${videoId}" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="project-description">
+                    <p>Make your choice – Eagle Fang, Cobra Kai, or Miyagi-do – marks the beginning of your journey. It's up to you to recruit the most powerful team, master your fighting style, and battle to establish your dojo's legacy as the All Valley Karate Grand Champion.</p>
+                    </div>
+                    <div class="project-links">
+                        <h2>Links</h2>
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                    </div>
+`                   ;
+                    break;
+                case 'project9':
+                    videoId = 'HFdBSmzKYks?si=IBT3jPlfA9A22kUT';
+                    projectContent = `
+                    <h2>COBRA KAI 2</h2>                
+                    <div class="project-video">
+                        <iframe id="youtubeVideo" width="560" height="315" src="https://www.youtube.com/embed/${videoId}" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="project-description">
+                    <p>Make your choice – Eagle Fang, Cobra Kai, or Miyagi-do – marks the beginning of your journey. It's up to you to recruit the most powerful team, master your fighting style, and battle to establish your dojo's legacy as the All Valley Karate Grand Champion.</p>
+                    </div>
+                    <div class="project-links">
+                        <h2>Links</h2>
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                    </div>
+`                   ;
+                    break;
+                case 'project10':
+                    videoId = 'HFdBSmzKYks?si=IBT3jPlfA9A22kUT';
+                    projectContent = `
+                    <h2>COBRA KAI 2</h2>                
+                    <div class="project-video">
+                        <iframe id="youtubeVideo" width="560" height="315" src="https://www.youtube.com/embed/${videoId}" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="project-description">
+                    <p>Make your choice – Eagle Fang, Cobra Kai, or Miyagi-do – marks the beginning of your journey. It's up to you to recruit the most powerful team, master your fighting style, and battle to establish your dojo's legacy as the All Valley Karate Grand Champion.</p>
+                    </div>
+                    <div class="project-links">
+                        <h2>Links</h2>
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                    </div>
+`                   ;
+                    break;
+                case 'project11':
+                    videoId = 'HFdBSmzKYks?si=IBT3jPlfA9A22kUT';
+                    projectContent = `
+                    <h2>COBRA KAI 2</h2>                
+                    <div class="project-video">
+                        <iframe id="youtubeVideo" width="560" height="315" src="https://www.youtube.com/embed/${videoId}" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="project-description">
+                    <p>Make your choice – Eagle Fang, Cobra Kai, or Miyagi-do – marks the beginning of your journey. It's up to you to recruit the most powerful team, master your fighting style, and battle to establish your dojo's legacy as the All Valley Karate Grand Champion.</p>
+                    </div>
+                    <div class="project-links">
+                        <h2>Links</h2>
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                    </div>
+`                   ;
+                    break;
+                case 'project12':
+                    videoId = 'HFdBSmzKYks?si=IBT3jPlfA9A22kUT';
+                    projectContent = `
+                    <h2>COBRA KAI 2</h2>                
+                    <div class="project-video">
+                        <iframe id="youtubeVideo" width="560" height="315" src="https://www.youtube.com/embed/${videoId}" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="project-description">
+                    <p>Make your choice – Eagle Fang, Cobra Kai, or Miyagi-do – marks the beginning of your journey. It's up to you to recruit the most powerful team, master your fighting style, and battle to establish your dojo's legacy as the All Valley Karate Grand Champion.</p>
+                    </div>
+                    <div class="project-links">
+                        <h2>Links</h2>
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                    </div>
+`                   ;
+                    break;
+            }
+
+
+            return projectContent;
+        }
+
     </script>
 
     <div class="white-divider"></div>
 
     <footer class="footer-container">
         <div class="contact-info">
-            <p style="font-size: 25px"><strong>CONTACT</strong></p>
-            <p style="margin-top: 25px "><strong> murilo.glasser@hotmail.com</strong></p>
-            <p style="margin-top: 28px "><strong> +55 (15) 99600-4374</strong></p>
-            <p style="margin-top: 28px "><strong> Sorocaba, Brazil </strong></pstyle="margin-top:>
+            <p style="font-size: 25px; margin-top: 20px;"><strong>CONTACT</strong></p>
+            <p style="margin-top: 24px "><strong> murilo.glasser@hotmail.com</strong></p>
+            <p style="margin-top: 14px "><strong> +55 (15) 99600-4374</strong></p>
+            <p style="margin-top: 14px "><strong> Sorocaba, Brazil </strong></pstyle="margin-top:>
         </div>
 
         <div class="social-icons">
@@ -327,6 +569,14 @@
             </a>
         </div>
     </footer>
+
+    <!-- Modal -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <div id="modalContent"></div>
+        </div>
+    </div>
 
 </body>
 </html>

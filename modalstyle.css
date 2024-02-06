@@ -1,0 +1,64 @@
+/* Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    overflow: auto;
+}
+
+.modal-content {
+    color: black;
+    position: relative;
+    margin: 8% auto;
+    padding: 20px;
+    max-width: 40%;
+    max-height: 80vh;
+    overflow-y: auto;
+    background-color: #fefefe;
+    border-radius: 10px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 23px;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.project-video {
+    margin-bottom: 20px; /* Ajuste a margem inferior conforme necessário */
+}
+
+.project-links {
+    margin-top: 25px; /* Adicione margem superior conforme necessário */
+}
+
+.project-description {
+    margin-top: -22px; /* Adicione margem superior conforme necessário */
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+/* Adicione estilos para tornar os vídeos do YouTube responsivos */
+.project-video iframe {
+    margin-bottom: 15px; /* Ajuste a margem inferior conforme necessário */
+    width: 80%;
+    max-height: 70vh; /* Ajuste a altura máxima do vídeo conforme necessário */
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+    .modal-content {
+        margin: 20% auto;
+        max-width: 80%;
+    }
+}
+
+

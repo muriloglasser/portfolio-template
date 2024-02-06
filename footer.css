@@ -26,9 +26,9 @@ footer {
 }
 
     .social-icon img {
-        margin-top: 0px;
-        width: 32px;
-        height: 32px;
+        margin-top: -10px;
+        width: 38px;
+        height: 38px;
     }
 
     .social-icon:hover {

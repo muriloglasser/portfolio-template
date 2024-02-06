@@ -15,7 +15,6 @@ body {
 
 .project {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
-    text-align: center;
     position: relative;
     width: calc(21% - 1px);
     height: auto;

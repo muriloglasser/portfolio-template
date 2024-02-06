@@ -15,7 +15,7 @@ header {
 
 .header-image {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8); /* Adapte os valores conforme necessário */
-    width: 160px;
+    width: 130px;
     height: auto;
     border-radius: 50%;
     border: 5px solid #ffffff;
