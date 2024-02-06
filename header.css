@@ -15,7 +15,7 @@ header {
 
 .header-image {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8); /* Adapte os valores conforme necessário */
-    width: 130px;
+    width: 150px;
     height: auto;
     border-radius: 50%;
     border: 5px solid #ffffff;
@@ -27,7 +27,7 @@ header {
 }
 
 .header-container {
-    background-image: url('Images/Header.jpg');
+    background-image: url('Images/Header3.jpg');
     background-repeat: repeat;
     background-size: 400px; /* ou tamanho desejado */
     /* outras propriedades de estilo do header */

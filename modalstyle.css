@@ -42,8 +42,6 @@
 
 .project-description {
     margin-top: -22px; /* Adicione margem superior conforme necessário */
-    margin-right: 60px;
-    margin-left: 60px;
 }
 
 /* Adicione estilos para tornar os vídeos do YouTube responsivos */
@@ -58,6 +56,12 @@
     .modal-content {
         margin: 20% auto;
         max-width: 80%;
+    }
+
+    .project-video iframe {
+        margin-bottom: 15px; /* Ajuste a margem inferior conforme necessário */
+        width: 80%;
+        max-height: 70vh; /* Ajuste a altura máxima do vídeo conforme necessário */
     }
 }
 
