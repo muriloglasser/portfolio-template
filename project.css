@@ -1,0 +1,93 @@
+section {
+    background-color: #4A065B;
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /*isso aqui talvez de ruim
+    padding-left: 90px;
+    padding-right: 90px;*/
+}
+
+body {
+    background-color: #4A065B;
+}
+
+.project {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    position: relative;
+    width: calc(21% - 1px);
+    height: auto;
+    margin: 2%;
+    box-sizing: border-box;
+    background-color: rgba(77, 73, 97, 0);
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+    .project img {
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 1);
+        width: 95%;
+        height: auto;
+        display: block;
+        border: 5px solid #ffffff;
+        border-radius: 10px;
+        transition: transform 0.3s;
+        margin-left: 3px;
+    }
+
+    .project:hover img {
+        transform: scale(1.05);
+    }
+
+.contributions {
+
+    text-align: left;
+}
+
+@media only screen and (max-width: 1200px) {
+    .project {
+        width: calc(28% - 1px);
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .project {
+        width: calc(45% - 1px);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .project {
+        width: 100%;
+    }
+}
+
+.project-content {
+    padding: 15px;
+    color: #ffffff;
+}
+
+    .project-content p:first-child {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+:root {
+    --tag-background-color: #674e75;
+}
+
+.tag {
+    font-size: 14px;
+    display: inline-block;
+    padding: 6px 4px;
+    margin: 0px 0px;
+    background-color: var(--tag-background-color);
+    color: #ffffff;
+    border-radius: 20px;
+}
+
+.project-content .tag {
+    margin-top: -10px;
+}
