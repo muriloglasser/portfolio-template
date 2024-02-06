@@ -29,6 +29,6 @@ header {
 .header-container {
     background-image: url('Images/Header.jpg');
     background-repeat: repeat;
-    background-size: 500px; /* ou tamanho desejado */
+    background-size: 400px; /* ou tamanho desejado */
     /* outras propriedades de estilo do header */
 }
