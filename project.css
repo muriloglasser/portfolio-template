@@ -1,18 +1,21 @@
+/* Project Section Styles */
 section {
     background-color: #3F1F51;
     padding: 25px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    /*isso aqui talvez de ruim
+    /* Potentially problematic styling
     padding-left: 90px;
-    padding-right: 90px;*/
+    padding-right: 90px;
+    */
 }
 
 body {
     background-color: #4A065B;
 }
 
+/* Individual Project Styles */
 .project {
     background-image: url('Images/Header2.jpg');
     background-repeat: repeat;
@@ -43,11 +46,12 @@ body {
         transform: scale(1.05);
     }
 
+/* Contributions Section Styles */
 .contributions {
-
     text-align: left;
 }
 
+/* Responsive Design */
 @media only screen and (max-width: 1200px) {
     .project {
         width: calc(28% - 1px);
@@ -66,6 +70,7 @@ body {
     }
 }
 
+/* Project Content Styles */
 .project-content {
     padding: 15px;
     color: #ffffff;
@@ -76,6 +81,7 @@ body {
         margin-bottom: 10px;
     }
 
+/* Tag Styles */
 :root {
     --tag-background-color: #4A065B;
 }

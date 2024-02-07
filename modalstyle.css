@@ -14,14 +14,14 @@
     color: black;
     position: relative;
     margin: 8% auto;
-    padding: 20px;
+    padding: 0px;
     max-width: 40%;
     max-height: 80vh;
     overflow-y: auto;
     background-color: #fefefe;
     border-radius: 10px;
     text-align: center;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
 }
 
 .close {
@@ -33,35 +33,92 @@
 }
 
 .project-video {
-    margin-bottom: 20px; /* Ajuste a margem inferior conforme necessário */
+    margin-bottom: 20px; /* Adjust bottom margin as needed */
 }
 
 .project-links {
-    margin-top: 25px; /* Adicione margem superior conforme necessário */
+    margin-top: 25px; /* Add top margin as needed */
 }
 
 .project-description {
-    margin-top: -22px; /* Adicione margem superior conforme necessário */
+    margin-top: -22px; /* Add top margin as needed */
+    max-width: 250px; /* Defina o valor máximo desejado para a largura */
+    margin-left: 30px; /* Add top margin as needed */
+    text-align: center;
 }
 
-/* Adicione estilos para tornar os vídeos do YouTube responsivos */
+/* Add styles to make YouTube videos responsive */
 .project-video iframe {
-    margin-bottom: 15px; /* Ajuste a margem inferior conforme necessário */
+    margin-bottom: 15px; /* Adjust bottom margin as needed */
     width: 80%;
-    max-height: 70vh; /* Ajuste a altura máxima do vídeo conforme necessário */
+    max-height: 70vh; /* Adjust maximum video height as needed */
 }
 
-/* Responsividade para telas menores */
-@media (max-width: 768px) {
+/* Responsiveness for smaller screens */
+@media (max-width: 778px) {
     .modal-content {
         margin: 20% auto;
-        max-width: 80%;
+        max-width: 70%;
+    }
+
+    .project-description {
+        margin-top: -22px; /* Add top margin as needed */
+        max-width: 250px; /* Defina o valor máximo desejado para a largura */
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .project-video iframe {
-        margin-bottom: 15px; /* Ajuste a margem inferior conforme necessário */
+        margin-bottom: 15px; /* Adjust bottom margin as needed */
         width: 80%;
-        max-height: 70vh; /* Ajuste a altura máxima do vídeo conforme necessário */
+        max-height: 60vh; /* Adjust maximum video height as needed */
+    }
+}
+
+@media only screen and (min-width: 779px) {
+    .modal-content {
+        color: black;
+        position: relative;
+        margin: 8% auto;
+        padding: 20px;
+        max-width: 80%;
+        max-height: 80vh;
+        overflow-y: auto;
+        background-color: #fefefe;
+        border-radius: 10px;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    .project-description {
+        margin-top: -22px; /* Add top margin as needed */
+        max-width: 850px; /* Defina o valor máximo desejado para a largura */
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 1300px) {
+    .modal-content {
+        color: black;
+        position: relative;
+        margin: 8% auto;
+        padding: 20px;
+        max-width: 40%;
+        max-height: 80vh;
+        overflow-y: auto;
+        background-color: #fefefe;
+        border-radius: 10px;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    .project-description {
+        margin-top: -22px; /* Add top margin as needed */
+        max-width: 650px; /* Defina o valor máximo desejado para a largura */
     }
 }
 
