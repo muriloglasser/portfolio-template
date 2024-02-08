@@ -38,7 +38,7 @@ function getProjectContent(projectId) {
         case 'project1':
             videoId = 'HFdBSmzKYks?si=IBT3jPlfA9A22kUT';
             projectContent = `
-                        <h2>COBRA KAI 2</h2>
+                        <h2 class="project-title">Cobra Kai 2</h2>
                         <div class="project-video">
                             <iframe id="youtubeVideo" width="560" height="315" src="https://www.youtube.com/embed/${videoId}" frameborder="0" allowfullscreen></iframe>
                         </div>
@@ -55,7 +55,7 @@ function getProjectContent(projectId) {
         case 'project2':
             videoId = 'HFdBSmzKYks?si=IBT3jPlfA9A22kUT';
             projectContent = `
-                        <h2>COBRA KAI 2</h2>
+                        <h2 class="project-title">COBRA KAI 2</h2>
                         <div class="project-video">
                             <iframe id="youtubeVideo" width="560" height="315" src="https://www.youtube.com/embed/${videoId}" frameborder="0" allowfullscreen></iframe>
                         </div>
@@ -72,7 +72,7 @@ function getProjectContent(projectId) {
         case 'project3':
             videoId = 'HFdBSmzKYks?si=IBT3jPlfA9A22kUT';
             projectContent = `
-                        <h2>COBRA KAI 2</h2>
+                        <h2 class="project-title">COBRA KAI 2</h2>
                         <div class="project-video">
                             <iframe id="youtubeVideo" width="560" height="315" src="https://www.youtube.com/embed/${videoId}" frameborder="0" allowfullscreen></iframe>
                         </div>
@@ -89,7 +89,7 @@ function getProjectContent(projectId) {
         case 'project4':
             videoId = 'HFdBSmzKYks?si=IBT3jPlfA9A22kUT';
             projectContent = `
-                        <h2>COBRA KAI 2</h2>
+                        <h2 class="project-title">COBRA KAI 2</h2>
                         <div class="project-video">
                             <iframe id="youtubeVideo" width="560" height="315" src="https://www.youtube.com/embed/${videoId}" frameborder="0" allowfullscreen></iframe>
                         </div>
@@ -106,7 +106,7 @@ function getProjectContent(projectId) {
         case 'project5':
             videoId = 'HFdBSmzKYks?si=IBT3jPlfA9A22kUT';
             projectContent = `
-                        <h2>COBRA KAI 2</h2>
+                        <h2 class="project-title">COBRA KAI 2</h2>
                         <div class="project-video">
                             <iframe id="youtubeVideo" width="560" height="315" src="https://www.youtube.com/embed/${videoId}" frameborder="0" allowfullscreen></iframe>
                         </div>
@@ -123,7 +123,7 @@ function getProjectContent(projectId) {
         case 'project6':
             videoId = 'HFdBSmzKYks?si=IBT3jPlfA9A22kUT';
             projectContent = `
-                        <h2>COBRA KAI 2</h2>
+                        <h2 class="project-title">COBRA KAI 2</h2>
                         <div class="project-video">
                             <iframe id="youtubeVideo" width="560" height="315" src="https://www.youtube.com/embed/${videoId}" frameborder="0" allowfullscreen></iframe>
                         </div>
@@ -140,7 +140,7 @@ function getProjectContent(projectId) {
         case 'project7':
             videoId = 'HFdBSmzKYks?si=IBT3jPlfA9A22kUT';
             projectContent = `
-                        <h2>COBRA KAI 2</h2>
+                        <h2 class="project-title">COBRA KAI 2</h2>
                         <div class="project-video">
                             <iframe id="youtubeVideo" width="560" height="315" src="https://www.youtube.com/embed/${videoId}" frameborder="0" allowfullscreen></iframe>
                         </div>
@@ -157,7 +157,7 @@ function getProjectContent(projectId) {
         case 'project8':
             videoId = 'HFdBSmzKYks?si=IBT3jPlfA9A22kUT';
             projectContent = `
-                        <h2>COBRA KAI 2</h2>
+                        <h2 class="project-title">COBRA KAI 2</h2>
                         <div class="project-video">
                             <iframe id="youtubeVideo" width="560" height="315" src="https://www.youtube.com/embed/${videoId}" frameborder="0" allowfullscreen></iframe>
                         </div>
@@ -174,7 +174,7 @@ function getProjectContent(projectId) {
         case 'project9':
             videoId = 'HFdBSmzKYks?si=IBT3jPlfA9A22kUT';
             projectContent = `
-                        <h2>COBRA KAI 2</h2>
+                        <h2 class="project-title">COBRA KAI 2</h2>
                         <div class="project-video">
                             <iframe id="youtubeVideo" width="560" height="315" src="https://www.youtube.com/embed/${videoId}" frameborder="0" allowfullscreen></iframe>
                         </div>
@@ -191,7 +191,7 @@ function getProjectContent(projectId) {
         case 'project10':
             videoId = 'HFdBSmzKYks?si=IBT3jPlfA9A22kUT';
             projectContent = `
-                        <h2>COBRA KAI 2</h2>
+                        <h2 class="project-title">COBRA KAI 2</h2>
                         <div class="project-video">
                             <iframe id="youtubeVideo" width="560" height="315" src="https://www.youtube.com/embed/${videoId}" frameborder="0" allowfullscreen></iframe>
                         </div>
@@ -208,7 +208,7 @@ function getProjectContent(projectId) {
         case 'project11':
             videoId = 'HFdBSmzKYks?si=IBT3jPlfA9A22kUT';
             projectContent = `
-                        <h2>COBRA KAI 2</h2>
+                        <h2 class="project-title">COBRA KAI 2</h2>
                         <div class="project-video">
                             <iframe id="youtubeVideo" width="560" height="315" src="https://www.youtube.com/embed/${videoId}" frameborder="0" allowfullscreen></iframe>
                         </div>
@@ -225,7 +225,7 @@ function getProjectContent(projectId) {
         case 'project12':
             videoId = 'HFdBSmzKYks?si=IBT3jPlfA9A22kUT';
             projectContent = `
-                        <h2>COBRA KAI 2</h2>
+                        <h2 class="project-title">COBRA KAI 2</h2>
                         <div class="project-video">
                             <iframe id="youtubeVideo" width="560" height="315" src="https://www.youtube.com/embed/${videoId}" frameborder="0" allowfullscreen></iframe>
                         </div>

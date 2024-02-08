@@ -11,7 +11,12 @@
 }
 
 .modal-content {
-    color: black;
+    border-radius: 50%;
+    border: 5px solid #ffffff;
+    background-image: url('Images/Header3.jpg');
+    background-repeat: repeat;
+    background-size: 900px;
+    color: #ffffff;
     position: relative;
     margin: 8% auto;
     padding: 0px;
@@ -24,10 +29,20 @@
     padding-bottom: 40px;
 }
 
+.modal-bg {
+    border-radius: 2%;
+    background-color: rgba(0, 0, 0, 0.30); /* Os três primeiros valores são para a cor (vermelho no exemplo), o último valor (0.5) é a transparência */
+    padding-bottom: 40px;
+    padding-top: 20px;
+    margin-right: -20px;
+    margin-left: -20px;
+}
+
 .close {
+    color: #ffffff;
     position: absolute;
     top: 8px;
-    right: 21px;
+    right: 23px;
     font-size: 50px;
     cursor: pointer;
 }
@@ -37,10 +52,18 @@
 }
 
 .project-links {
+    color: #ffffff;
     margin-top: 25px; /* Add top margin as needed */
 }
 
+.project-title {
+    color: #ffffff;
+    font-size: 30px;
+}
+
 .project-description {
+    font-size: 18px;
+    color: #ffffff;
     margin-top: -22px; /* Add top margin as needed */
     max-width: 250px; /* Defina o valor máximo desejado para a largura */
     margin-left: 30px; /* Add top margin as needed */
@@ -49,6 +72,8 @@
 
 /* Add styles to make YouTube videos responsive */
 .project-video iframe {
+    border-radius: 2%;
+    border: 5px solid #ffffff;
     margin-bottom: 15px; /* Adjust bottom margin as needed */
     width: 80%;
     max-height: 70vh; /* Adjust maximum video height as needed */
@@ -60,11 +85,12 @@
         padding: 20px;
         margin: 20% auto;
         max-width: 80%;
-        padding-bottom: 45px;
+        padding-bottom: 0px;
+        padding-top: 0px;
     }
 
     .project-description {
-        margin-top: -22px; /* Add top margin as needed */
+        margin-top: -16px; /* Add top margin as needed */
         max-width: 300px; /* Defina o valor máximo desejado para a largura */
         margin-left: auto;
         margin-right: auto;
@@ -72,7 +98,7 @@
 
     .project-video iframe {
         margin-bottom: 15px; /* Adjust bottom margin as needed */
-        width: 100%;
+        width: 80%;
         max-height: 24vh; /* Adjust maximum video height as needed */
     }
 }
@@ -83,20 +109,21 @@
         padding: 20px;
         margin: 20% auto;
         max-width: 80%;
-        padding-bottom: 45px;
         margin-top: 165px;
+        padding-bottom: 0px;
+        padding-top: 0px;
     }
 
     .project-description {
-        margin-top: -22px; /* Add top margin as needed */
-        max-width: 700px; /* Defina o valor máximo desejado para a largura */
+        margin-top: -16px; /* Add top margin as needed */
+        max-width: 500px; /* Defina o valor máximo desejado para a largura */
         margin-left: auto;
         margin-right: auto;
     }
 
     .project-video iframe {
         margin-bottom: 15px; /* Adjust bottom margin as needed */
-        width: 100%;
+        width: 90%;
         max-height: 28vh; /* Adjust maximum video height as needed */
     }
 }
@@ -115,11 +142,13 @@
         text-align: center;
         padding-bottom: 50px;
         margin-top: 165px;
+        padding-bottom: 0px;
+        padding-top: 0px;
     }
 
     .project-description {
-        margin-top: -22px; /* Add top margin as needed */
-        max-width: 850px; /* Defina o valor máximo desejado para a largura */
+        margin-top: -16px; /* Add top margin as needed */
+        max-width: 650px; /* Defina o valor máximo desejado para a largura */
         margin-left: auto;
         margin-right: auto;
     }
@@ -141,6 +170,8 @@
         text-align: center;
         padding-bottom: 50px;
         margin-top: 165px;
+        padding-bottom: 0px;
+        padding-top: 0px;
     }
 
     .project-video iframe {
@@ -150,7 +181,7 @@
     }
 
     .project-description {
-        margin-top: -22px; /* Add top margin as needed */
+        margin-top: -16px; /* Add top margin as needed */
         max-width: 650px; /* Defina o valor máximo desejado para a largura */
     }
 }
@@ -167,17 +198,18 @@
         background-color: #fefefe;
         border-radius: 10px;
         text-align: center;
-        padding-bottom: 50px;
+        padding-bottom: 0px;
+        padding-top: 0px;
     }
 
     .project-video iframe {
         margin-bottom: 15px; /* Adjust bottom margin as needed */
-        width: 90%;
+        width: 80%;
         max-height: 70vh; /* Adjust maximum video height as needed */
     }
 
     .project-description {
-        margin-top: -22px; /* Add top margin as needed */
-        max-width: 650px; /* Defina o valor máximo desejado para a largura */
+        margin-top: -16px; /* Add top margin as needed */
+        max-width: 580px; /* Defina o valor máximo desejado para a largura */
     }
 }
