@@ -31,7 +31,7 @@
 
 .modal-bg {
     border-radius: 2%;
-    background-color: rgba(0, 0, 0, 0.30); /* Os três primeiros valores são para a cor (vermelho no exemplo), o último valor (0.5) é a transparência */
+    background-color: rgba(0, 0, 0, 0.50); /* Os três primeiros valores são para a cor (vermelho no exemplo), o último valor (0.5) é a transparência */
     padding-bottom: 40px;
     padding-top: 20px;
     margin-right: -20px;
