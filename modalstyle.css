@@ -58,7 +58,7 @@
 @media (max-width: 778px) {
     .modal-content {
         margin: 20% auto;
-        max-width: 70%;
+        max-width: 80%;
     }
 
     .project-description {
@@ -71,7 +71,7 @@
     .project-video iframe {
         margin-bottom: 15px; /* Adjust bottom margin as needed */
         width: 80%;
-        max-height: 60vh; /* Adjust maximum video height as needed */
+        max-height: 20vh; /* Adjust maximum video height as needed */
     }
 }
 
