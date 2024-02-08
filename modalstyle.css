@@ -26,8 +26,8 @@
 
 .close {
     position: absolute;
-    top: 10px;
-    right: 23px;
+    top: 8px;
+    right: 21px;
     font-size: 50px;
     cursor: pointer;
 }
@@ -57,20 +57,22 @@
 /* Responsiveness for smaller screens */
 @media (max-width: 778px) {
     .modal-content {
+        padding: 20px;
         margin: 20% auto;
         max-width: 80%;
+        padding-bottom:45px;
     }
 
     .project-description {
         margin-top: -22px; /* Add top margin as needed */
-        max-width: 250px; /* Defina o valor máximo desejado para a largura */
+        max-width: 300px; /* Defina o valor máximo desejado para a largura */
         margin-left: auto;
         margin-right: auto;
     }
 
     .project-video iframe {
         margin-bottom: 15px; /* Adjust bottom margin as needed */
-        width: 80%;
+        width: 85%;
         max-height: 20vh; /* Adjust maximum video height as needed */
     }
 }
