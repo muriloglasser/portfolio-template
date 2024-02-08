@@ -60,7 +60,7 @@
         padding: 20px;
         margin: 20% auto;
         max-width: 80%;
-        padding-bottom:45px;
+        padding-bottom: 45px;
     }
 
     .project-description {
@@ -84,6 +84,7 @@
         margin: 20% auto;
         max-width: 80%;
         padding-bottom: 45px;
+        margin-top: 165px;
     }
 
     .project-description {
@@ -100,7 +101,7 @@
     }
 }
 
-@media only screen and (min-width: 580px) {
+@media only screen and (min-width: 780px) {
     .modal-content {
         color: black;
         position: relative;
@@ -113,6 +114,7 @@
         border-radius: 10px;
         text-align: center;
         padding-bottom: 50px;
+        margin-top: 165px;
     }
 
     .project-description {
@@ -125,7 +127,7 @@
 
 
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 1000px) {
     .modal-content {
         color: black;
         position: relative;
@@ -138,6 +140,7 @@
         border-radius: 10px;
         text-align: center;
         padding-bottom: 50px;
+        margin-top: 165px;
     }
 
     .project-video iframe {
@@ -152,7 +155,7 @@
     }
 }
 
-@media only screen and (min-width: 1100px) {
+@media only screen and (min-width: 1200px) {
     .modal-content {
         color: black;
         position: relative;
@@ -167,10 +170,14 @@
         padding-bottom: 50px;
     }
 
+    .project-video iframe {
+        margin-bottom: 15px; /* Adjust bottom margin as needed */
+        width: 90%;
+        max-height: 70vh; /* Adjust maximum video height as needed */
+    }
+
     .project-description {
         margin-top: -22px; /* Add top margin as needed */
         max-width: 650px; /* Defina o valor máximo desejado para a largura */
     }
 }
-
-
