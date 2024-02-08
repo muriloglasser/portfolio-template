@@ -41,8 +41,8 @@
 .close {
     color: #ffffff;
     position: absolute;
-    top: 8px;
-    right: 23px;
+    top: 6px;
+    right: 18px;
     font-size: 50px;
     cursor: pointer;
 }
