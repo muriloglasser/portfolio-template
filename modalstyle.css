@@ -104,10 +104,10 @@
 
     .modal-content {
         max-width: 85%;
-        max-height: 85%;
+        max-height: 80%;
         text-align: center;
-/*        margin-top: 60px;
-*/    }
+        margin-top: 30px;
+    }
 
     .project-video iframe {
         margin-top: -20px; /* Adjust bottom margin as needed */
