@@ -103,7 +103,6 @@
 @media (max-width: 578px) {
 
     .modal-content {
-        margin: 22% auto;
         max-width: 80%;
         max-height: 80vh;
         text-align: center;
