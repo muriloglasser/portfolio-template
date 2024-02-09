@@ -94,7 +94,7 @@ function getProjectContent(projectId) {
 `                   ;
             break;
         case 'project2':
-            videoId = 'HFdBSmzKYks?si=IBT3jPlfA9A22kUT';
+            videoId = 'FlSIC41wyX4?si=sri-3iJzy4L83Xct';
             projectContent = `
                         <div class="title-bg">
                                 <h2 class="project-title">Mega Button Soccer</h2>
@@ -124,7 +124,7 @@ function getProjectContent(projectId) {
 `                   ;
             break;
         case 'project3':
-            videoId = 'uf9AdR_xIwo?si=9sZaBoWDXM31XwiA';
+            videoId = 'MuOGtenrr8k?si=njIRm4660M5-CjWU';
             projectContent = `
                         <div class="title-bg">
                                 <h2 class="project-title">Food Boy</h2>
@@ -167,7 +167,7 @@ function getProjectContent(projectId) {
 `                   ;
             break;
         case 'project4':
-            videoId = 'j5FWzn5U_5k?si=4qGKWMum4yF6vjlk';
+            videoId = 'gT8AB68s_2k?si=9lWQuuRO1j9Kbjin';
             projectContent = `
                         <div class="title-bg">
                                 <h2 class="project-title">Joy & Toy</h2>
@@ -200,7 +200,7 @@ function getProjectContent(projectId) {
 `                   ;
             break;
         case 'project5':
-            videoId = 'HFdBSmzKYks?si=IBT3jPlfA9A22kUT';
+            videoId = 'cs_BVRnD4QU?si=wNPxuS40Bg4ij1Vz';
             projectContent = `
                         <div class="title-bg">
                                 <h2 class="project-title">Hot Potato</h2>
@@ -222,7 +222,7 @@ function getProjectContent(projectId) {
 `                   ;
             break;
         case 'project6':
-            videoId = 'ABu2Ryy1gd8?si=OCPA2NdcI7X5WNou';
+            videoId = 'eK7_MLSFprU?si=GgySrIEi62Ylybsh';
             projectContent = `
                          <div class="title-bg">
                                 <h2 class="project-title">Trader's Life</h2>
@@ -255,7 +255,7 @@ function getProjectContent(projectId) {
 `                   ;
             break;
         case 'project7':
-            videoId = 'HFdBSmzKYks?si=IBT3jPlfA9A22kUT';
+            videoId = '6iZYMm5oXdk?si=OHhVYIERtpBtTUa0';
             projectContent = `
                         <div class="title-bg">
                                 <h2 class="project-title">Anitta Boss Game</h2>
@@ -277,7 +277,7 @@ function getProjectContent(projectId) {
 `                   ;
             break;
         case 'project8':
-            videoId = 'HFdBSmzKYks?si=IBT3jPlfA9A22kUT';
+            videoId = '_rkVQpotLIw?si=jvUrWaw5Q3xtb5Ub';
             projectContent = `
                         <div class="title-bg">
                                 <h2 class="project-title">Free Fighter</h2>
@@ -299,7 +299,7 @@ function getProjectContent(projectId) {
 `                   ;
             break;
         case 'project9':
-            videoId = 'HFdBSmzKYks?si=IBT3jPlfA9A22kUT';
+            videoId = '8RWrj6cPtd0?si=NjWYzSLpEmjNZJco';
             projectContent = `
                         <div class="title-bg">
                                 <h2 class="project-title">Cash Plane</h2>
@@ -321,7 +321,7 @@ function getProjectContent(projectId) {
 `                   ;
             break;
         case 'project10':
-            videoId = 'HFdBSmzKYks?si=IBT3jPlfA9A22kUT';
+            videoId = 'YI0jJG-jhSo?si=VpCqWNVHP1jQJTjO';
             projectContent = `
                         <div class="title-bg">
                                 <h2 class="project-title">Shofu Ar Experience</h2>
@@ -343,7 +343,7 @@ function getProjectContent(projectId) {
 `                   ;
             break;
         case 'project11':
-            videoId = 'HFdBSmzKYks?si=IBT3jPlfA9A22kUT';
+            videoId = 'q-s1OCA3Tw8?si=AiH2tMIBBzAgCFpa';
             projectContent = `
                         <div class="title-bg">
                                 <h2 class="project-title">Lego Ar Experience</h2>
@@ -365,7 +365,7 @@ function getProjectContent(projectId) {
 `                   ;
             break;
         case 'project12':
-            videoId = 'HFdBSmzKYks?si=IBT3jPlfA9A22kUT';
+            videoId = '3cyNc31jY4I?si=w69jaH9h51mRlbdF';
             projectContent = `
                         <div class="title-bg">
                                 <h2 class="project-title">Merge Cube</h2>
