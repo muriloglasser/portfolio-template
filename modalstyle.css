@@ -103,10 +103,10 @@
 @media (max-width: 578px) {
 
     .modal-content {
-        max-width: 85%;
+        max-width: 84%;
         max-height: 80%;
         text-align: center;
-        margin-top: 30px;
+        margin-top: 85px;
     }
 
     .project-video iframe {
