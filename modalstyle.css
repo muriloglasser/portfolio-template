@@ -106,6 +106,7 @@
         max-width: 80%;
         max-height: 80vh;
         text-align: center;
+        margin-top: 70px;
     }
 
     .project-video iframe {

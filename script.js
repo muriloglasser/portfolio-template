@@ -19,7 +19,7 @@ function openModal(projectId) {
 
     var content = document.getElementById('modal-c');
     content.scrollTop = 0;
-
+    window.addEventListener('click', outsideClick);
 }
 
 // Close project modal
@@ -29,6 +29,15 @@ function closeModal() {
 
     youtubeVideo.src = "";
     modal.style.display = "none";
+    window.removeEventListener('click', outsideClick);
+}
+
+function outsideClick(event) {
+    var modal = document.getElementById('myModal');
+
+    if (event.target === modal) {
+        closeModal();
+    }
 }
 
 // Set modal with project information
