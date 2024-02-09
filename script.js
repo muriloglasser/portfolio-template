@@ -36,19 +36,27 @@ function getProjectContent(projectId) {
     // Determine the video ID and project information based on the selected project
     switch (projectId) {
         case 'project1':
-            videoId = 'HFdBSmzKYks?si=IBT3jPlfA9A22kUT';
+            videoId = 'N4vmPq09dN4?si=eyzXwmLVzzDp4Ayt';
             projectContent = `
+                        <div class="title-bg">
                         <h2 class="project-title">Cobra Kai 2</h2>
+                        </div>                        
                         <div class="project-video">
-                            <iframe id="youtubeVideo" width="560" height="315" src="https://www.youtube.com/embed/${videoId}" frameborder="0" allowfullscreen></iframe>
+                            <iframe id="youtubeVideo" width="560" height="315" src="https://www.youtube.com/embed/${videoId}" frameborder="0" allowfullscreen></iframe>                        
                         </div>
+                        <div class="description-bg">
                         <div class="project-description">
                         <p>Make your choice – Eagle Fang, Cobra Kai, or Miyagi-do – marks the beginning of your journey. It's up to you to recruit the most powerful team, master your fighting style, and battle to establish your dojo's legacy as the All Valley Karate Grand Champion.</p>
                         </div>
+                        </div>
                         <div class="project-links">
-                            <h2>Links</h2>
-                            <a href="#">Link 1</a>
-                            <a href="#">Link 2</a>
+                        <h2>Links</h2>
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        </div>
+                        </div>
+                        <div class="close">
+                        <span onclick="closeModal()">&times;</span>
                         </div>
 `                   ;
             break;
