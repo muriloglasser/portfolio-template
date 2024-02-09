@@ -121,7 +121,7 @@ function getProjectContent(projectId) {
 `                   ;
             break;
         case 'project3':
-            videoId = 'HFdBSmzKYks?si=IBT3jPlfA9A22kUT';
+            videoId = 'uf9AdR_xIwo?si=9sZaBoWDXM31XwiA';
             projectContent = `
                         <div class="title-bg">
                                 <h2 class="project-title">Food Boy</h2>
@@ -164,7 +164,7 @@ function getProjectContent(projectId) {
 `                   ;
             break;
         case 'project4':
-            videoId = 'HFdBSmzKYks?si=IBT3jPlfA9A22kUT';
+            videoId = 'j5FWzn5U_5k?si=4qGKWMum4yF6vjlk';
             projectContent = `
                         <div class="title-bg">
                                 <h2 class="project-title">Joy & Toy</h2>
@@ -219,7 +219,7 @@ function getProjectContent(projectId) {
 `                   ;
             break;
         case 'project6':
-            videoId = 'HFdBSmzKYks?si=IBT3jPlfA9A22kUT';
+            videoId = 'ABu2Ryy1gd8?si=OCPA2NdcI7X5WNou';
             projectContent = `
                          <div class="title-bg">
                                 <h2 class="project-title">Trader's Life</h2>
