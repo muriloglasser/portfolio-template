@@ -19,8 +19,9 @@ function openModal(projectId) {
 
     var content = document.getElementById('modal-c');
     content.scrollTop = 0;
-    window.addEventListener('click', outsideClick);
+    window.addEventListener('click', outsideClick);   
 }
+
 
 // Close project modal
 function closeModal() {
@@ -39,6 +40,8 @@ function outsideClick(event) {
         closeModal();
     }
 }
+
+
 
 // Set modal with project information
 function getProjectContent(projectId) {
