@@ -10,12 +10,16 @@ function changeImage(projectId, imageUrl) {
 function openModal(projectId) {
     var modal = document.getElementById("myModal");
     var modalContent = document.getElementById("modalContent");
-
     // Update modal content based on the project clicked
     var projectContent = getProjectContent(projectId);
     modalContent.innerHTML = projectContent;
 
     modal.style.display = "block";
+    modal.scrollTop = 0;
+
+    var content = document.getElementById('modal-c');
+    content.scrollTop = 0;
+
 }
 
 // Close project modal

@@ -7,10 +7,6 @@ section {
     justify-content: space-between;
     padding-bottom: 90px;
     padding-top: 33px;
-    /* Potentially problematic styling
-    padding-left: 90px;
-    padding-right: 90px;
-    */
 }
 
 body {
