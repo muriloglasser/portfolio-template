@@ -8,13 +8,13 @@ footer {
 
 /* Contact Information */
 .contact-info {
-    margin-bottom: 40px;
+    margin-bottom: 0px;
 }
 
-.contact-info p {
-    margin: 10px 0;
-    font-size: 18px;
-}
+    .contact-info p {
+        margin: 10px 0;
+        font-size: 16px;
+    }
 
 /* Social Icons */
 .linkedin:hover img,
@@ -27,10 +27,15 @@ footer {
     transition: transform 0.3s ease-in-out;
 }
 
-.social-icon img {
-    margin-top: -10px;
-    width: 38px;
-    height: 38px;
+    .social-icon img {
+        margin-top: -10px;
+        width: 38px;
+        height: 38px;
+    }
+
+.contact-icon img {
+    width: 40px;
+    height: 40px;
 }
 
 .social-icon:hover {
