@@ -108,7 +108,7 @@
 }
 
 /* Responsiveness for smaller screens */
-@media (max-width: 578px) {
+@media (max-width: 678px) {
 
     .modal-content {
         border-radius: 25px;
@@ -128,7 +128,7 @@
 }
 
 /* Responsiveness for medium screens */
-@media (min-width: 579px) {
+@media (min-width: 679px) {
     .modal-content {
         border-radius: 25px;
         max-width: 90%;
