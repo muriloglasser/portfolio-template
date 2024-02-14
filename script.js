@@ -132,8 +132,9 @@ function getProjectContent(projectId) {
                                 </a>
                             </div>
 
+
                             <div class="close">
-                                <span onclick="closeModal()">&times;</span>
+                                <span onclick="closeModal()" target="_blank" class="social-icon github">&times;</span>
                             </div>
 `                   ;
             break;
@@ -175,8 +176,9 @@ function getProjectContent(projectId) {
                                 </a>
                             </div>
 
+
                             <div class="close">
-                                <span onclick="closeModal()">&times;</span>
+                                <span onclick="closeModal()" target="_blank" class="social-icon github">&times;</span>
                             </div>
 `                   ;
             break;
@@ -208,8 +210,9 @@ function getProjectContent(projectId) {
                                 </a>                               
                             </div>
 
+
                             <div class="close">
-                                <span onclick="closeModal()">&times;</span>
+                                <span onclick="closeModal()" target="_blank" class="social-icon github">&times;</span>
                             </div>
 `                   ;
             break;
@@ -230,8 +233,9 @@ function getProjectContent(projectId) {
                                 </div>
                             </div>
 
+
                             <div class="close">
-                                <span onclick="closeModal()">&times;</span>
+                                <span onclick="closeModal()" target="_blank" class="social-icon github">&times;</span>
                             </div>
 `                   ;
             break;
@@ -263,8 +267,9 @@ function getProjectContent(projectId) {
                                 </a>
                             </div>
 
+
                             <div class="close">
-                                <span onclick="closeModal()">&times;</span>
+                                <span onclick="closeModal()" target="_blank" class="social-icon github">&times;</span>
                             </div>
 `                   ;
             break;
@@ -285,8 +290,9 @@ function getProjectContent(projectId) {
                                 </div>
                             </div>
 
+
                             <div class="close">
-                                <span onclick="closeModal()">&times;</span>
+                                <span onclick="closeModal()" target="_blank" class="social-icon github">&times;</span>
                             </div>
 `                   ;
             break;
@@ -307,8 +313,9 @@ function getProjectContent(projectId) {
                                 </div>
                             </div>
 
+
                             <div class="close">
-                                <span onclick="closeModal()">&times;</span>
+                                <span onclick="closeModal()" target="_blank" class="social-icon github">&times;</span>
                             </div>
 `                   ;
             break;
@@ -329,8 +336,9 @@ function getProjectContent(projectId) {
                                 </div>
                             </div>
 
+
                             <div class="close">
-                                <span onclick="closeModal()">&times;</span>
+                                <span onclick="closeModal()" target="_blank" class="social-icon github">&times;</span>
                             </div>
 `                   ;
             break;
@@ -351,8 +359,9 @@ function getProjectContent(projectId) {
                                 </div>
                             </div>
 
+
                             <div class="close">
-                                <span onclick="closeModal()">&times;</span>
+                                <span onclick="closeModal()" target="_blank" class="social-icon github">&times;</span>
                             </div>
 `                   ;
             break;
@@ -373,8 +382,9 @@ function getProjectContent(projectId) {
                                 </div>
                             </div>
 
+
                             <div class="close">
-                                <span onclick="closeModal()">&times;</span>
+                                <span onclick="closeModal()" target="_blank" class="social-icon github">&times;</span>
                             </div>
 `                   ;
             break;
@@ -395,8 +405,9 @@ function getProjectContent(projectId) {
                                 </div>
                             </div>
 
+
                             <div class="close">
-                                <span onclick="closeModal()">&times;</span>
+                                <span onclick="closeModal()" target="_blank" class="social-icon github">&times;</span>
                             </div>
 `                   ;
             break;
