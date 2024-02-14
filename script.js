@@ -16,10 +16,11 @@ function openModal(projectId) {
 
     modal.style.display = "block";
     modal.scrollTop = 0;
+    modal.classList.add('slide-in-up');
 
     var content = document.getElementById('modal-c');
     content.scrollTop = 0;
-    window.addEventListener('click', outsideClick);   
+    window.addEventListener('click', outsideClick);
 }
 
 
@@ -29,8 +30,21 @@ function closeModal() {
     var youtubeVideo = document.getElementById("youtubeVideo");
 
     youtubeVideo.src = "";
-    modal.style.display = "none";
     window.removeEventListener('click', outsideClick);
+    modal.classList.remove('slide-in-up');
+
+    // Adicionar classe de animação de saída
+    modal.classList.add('slide-out-up');
+
+    // Aguardar o término da animação de saída antes de ocultar a modal
+    modal.addEventListener('animationend', () => {
+        // Ocultar a modal
+        modal.style.display = 'none';
+
+        // Remover a classe de animação de saída
+        modal.classList.remove('slide-out-up');
+    }, { once: true });
+
 }
 
 function outsideClick(event) {
@@ -89,7 +103,7 @@ function getProjectContent(projectId) {
                             </div>
 
                             <div class="close">
-                                <span onclick="closeModal()">&times;</span>
+                                <span onclick="closeModal()" target="_blank" class="social-icon github">&times;</span>
                             </div>
 `                   ;
             break;
