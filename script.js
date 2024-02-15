@@ -78,7 +78,7 @@ function getProjectContent(projectId) {
 
                             <div class="description-bg">
                                 <div class="project-description">
-                                    <p>Make your choice – Eagle Fang, Cobra Kai, or Miyagi-do – marks the beginning of your journey. It's up to you to recruit the most powerful team, master your fighting style, and battle to establish your dojo's legacy as the All Valley Karate Grand Champion.</p>
+                                    <p>Cobra Kai 2 is a fighting game featuring immersive gameplay and dynamic combat mechanics. Players choose between Eagle Fang, Cobra Kai, or Miyagi-do dojos, recruiting powerful teams and mastering unique fighting styles to become the All Valley Karate Grand Champion.</p>
                                 </div>
                             </div>
 
@@ -120,7 +120,7 @@ function getProjectContent(projectId) {
 
                             <div class="description-bg">
                                 <div class="project-description">
-                                    <p>Mega Button Soccer is a reinvented version of the traditional button soccer! With a fun storyline and charismatic characters, enjoy the journey of Cauã as he pursues his dream of becoming the greatest button soccer player on Aru-Açu Island!</p>
+                                    <p>Mega Button Soccer is a game that reinvents traditional button soccer with engaging gameplay. Follow the journey of Cauã as he strives to become the greatest button soccer player on Aru-Açu Island, navigating challenges and showcasing strategic skills.</p>
                                 </div>
                             </div>
 
@@ -151,7 +151,7 @@ function getProjectContent(projectId) {
 
                             <div class="description-bg">
                                 <div class="project-description">
-                                    <p>Food Boy combines the classic Paperboy vibe from the 1980s with the modern twist of 2020's food delivery services. Players deliver pizzas in urban settings, aiming for perfect deliveries while avoiding angry customers. Unlock new cities ,skins and challenges by mastering the art of pizza delivery in this exciting arcade game.</p>
+                                    <p>Food Boy is a console arcade game that combines the classic Paperboy vibe with modern food delivery services. Players navigate urban settings, delivering pizzas with precision while unlocking new cities, skins, and challenges. Master the art of pizza delivery in this exciting and challenging arcade experience.</p>
                                 </div>
                             </div>
 
@@ -163,17 +163,10 @@ function getProjectContent(projectId) {
                                     <img src="Images/Steam.png" alt="Github">
                                 </a>
 
-                                <a href="https://store.playstation.com/pt-br/product/UP0283-PPSA04644_00-4810208968054641" target="_blank" class="social-icon github" style="margin-left: 6px">
+                                <a href="https://store.playstation.com/pt-br/concept/10007747" target="_blank" class="social-icon github" style="margin-left: 6px">
                                     <img src="Images/Playstation.png" alt="Github">
                                 </a>
-
-                                <a href="https://www.xbox.com/pt-BR/games/store/cobra-kai-2-dojos-rising/9NP4WZNSN0NN" target="_blank" class="social-icon github" style="margin-left: 6px">
-                                    <img src="Images/Xbox.png" alt="Github">
-                                </a>
-
-                                <a href="https://www.nintendo.com/pt-br/store/products/cobra-kai-2-dojos-rising-switch/" target="_blank" class="social-icon github" style="margin-left: 6px">
-                                    <img src="Images/Nintendo.png" alt="Github">
-                                </a>
+                             
                             </div>
 
 
@@ -195,7 +188,7 @@ function getProjectContent(projectId) {
 
                             <div class="description-bg">
                                 <div class="project-description">
-                                    <p>Joy & Toy is an engaging mobile game created for the renowned soap opera "Poliana" on the SBT TV network. In this game, players take on the roles of two characters with a mission to combat depression and spread happiness. Join the adventure as you guide these characters through challenges, fostering positivity and joy along the way. Experience the transformative power of gaming, all while being part of a meaningful journey towards mental well-being.</p>
+                                    <p>Joy & Toy is a mobile game designed as a promotional initiative for the renowned soap opera "Poliana" on SBT TV network. Players embark on an engaging adventure, combating depression and spreading happiness. Guide characters through challenges, fostering positivity, and contributing to a meaningful journey towards mental well-being.</p>
                                 </div>
                             </div>
 
@@ -229,7 +222,7 @@ function getProjectContent(projectId) {
 
                             <div class="description-bg">
                                 <div class="project-description">
-                                    <p>Hot Potato is an engaging game designed for four players. Set in a vibrant and interactive environment, this game brings people together on the ground, creating a thrilling experience. Players immerse themselves in the action, using specially crafted wooden joysticks to control the game, adding a unique and tactile element to the gameplay.</p>
+                                    <p>    <p>Hot Potato is an engaging multiplayer game designed for four players, set in a vibrant and interactive environment. Players use specially crafted wooden joysticks to control the game, creating a unique and tactile gaming experience that brings people together for a thrilling and immersive gameplay session.</p>
                                 </div>
                             </div>
 
@@ -252,7 +245,7 @@ function getProjectContent(projectId) {
 
                             <div class="description-bg">
                                 <div class="project-description">
-                                    <p>Trader's Life is an immersive 2D/3D game designed to empower newcomers in the world of trading. The goal is to demystify the complexities of the trade business, providing players with a comfortable space to navigate intricate brokerage jargon and applications that can often appear daunting.</p>
+                                    <p>Trader's Life is an immersive 2D/3D game designed to empower newcomers in the world of trading. Demystify the complexities of the trade business, providing players with a comfortable space to navigate intricate brokerage jargon and applications, making the trade experience accessible and enjoyable.</p>
                                 </div>
                             </div>
 
@@ -286,7 +279,7 @@ function getProjectContent(projectId) {
 
                             <div class="description-bg">
                                 <div class="project-description">
-                                    <p>Anitta Boss Game, a result of the strategic alliance between our team and Garena, serves as a powerful promotional tool, enhancing both Garena's collaboration with Anitta and the game's visibility. This venture showcases our expertise in developing engaging and impactful gaming experiences.</p>
+                                    <p>Anitta Boss Game is a web game serving as a powerful promotional tool. It enhances the collaboration between Garena and Anitta, boosting the game's visibility and integrating the artist's character into Free Fire.</p>
                                 </div>
                             </div>
 
@@ -309,7 +302,7 @@ function getProjectContent(projectId) {
 
                             <div class="description-bg">
                                 <div class="project-description">
-                                    <p>Free Fighter game was developed in partnership with Garena as a promotional initiative, assisting their collaboration with Capcom and Street Fighter. This project stands out for its strategic collaboration, delivering a dynamic and thrilling gaming experience for fighting game enthusiasts. This successful partnership resulted in a game that not only honors the classic elements of Street Fighter but also offers a new and exciting twist, solidifying my portfolio as an innovative and creative game developer.</p>
+                                    <p>Free Fighter game was developed in partnership with Garena as a promotional initiative, assisting their collaboration with Capcom and Street Fighter. This project stands out for its strategic collaboration, delivering a dynamic and thrilling gaming experience for fighting game enthusiasts.</p>
                                 </div>
                             </div>
 
@@ -355,7 +348,7 @@ function getProjectContent(projectId) {
 
                             <div class="description-bg">
                                 <div class="project-description">
-                                    <p>Augmented reality promotional game: immerse yourself in a captivating experience where you learn about the molecules that constitute Shofu's revolutionary teeth product. Through cutting-edge augmented reality technology, this game offers an interactive and educational journey, showcasing our commitment to innovative and engaging marketing solutions.</p>
+                                    <p>Shofu Ar Experience is an augmented reality promotional game offering an interactive and educational journey. Immerse yourself in a captivating experience to learn about the molecules constituting Shofu's revolutionary teeth product.</p>
                                 </div>
                             </div>
 
@@ -378,7 +371,7 @@ function getProjectContent(projectId) {
 
                             <div class="description-bg">
                                 <div class="project-description">
-                                    <p>Enter the world of augmented reality with our unique game where you will be in command of a robot built entirely from LEGO bricks. This immersive experience offers a fascinating mix of creativity and technology.</p>
+                                    <p>Lego Ar Experience is an augmented reality game where players take command of a robot built entirely from LEGO bricks.</p>
                                 </div>
                             </div>
 
@@ -416,3 +409,12 @@ function getProjectContent(projectId) {
 
     return projectContent;
 }
+
+
+/* <a href="https://www.xbox.com/pt-BR/games/store/cobra-kai-2-dojos-rising/9NP4WZNSN0NN" target="_blank" class="social-icon github" style="margin-left: 6px">
+                                  <img src="Images/Xbox.png" alt="Github">
+                              </a>
+
+                              <a href="https://www.nintendo.com/pt-br/store/products/cobra-kai-2-dojos-rising-switch/" target="_blank" class="social-icon github" style="margin-left: 6px">
+                                  <img src="Images/Nintendo.png" alt="Github">
+                              </a>*/
