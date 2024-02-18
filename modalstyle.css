@@ -47,11 +47,7 @@
 
 /* Project video styling */
 .project-video {
-    /*margin-bottom: -5px;
-    margin-top: -5px;*/
-
-    max-width:100%;
-
+    max-width: 100%;
 }
 
     /* Make YouTube videos responsive */
@@ -109,7 +105,6 @@
 
 /* Responsiveness for smaller screens */
 @media (max-width: 678px) {
-
     .modal-content {
         border-radius: 25px;
         max-width: 80%;
@@ -123,7 +118,7 @@
         max-height: 70vh;
     }
 
-    .project-description {       
+    .project-description {
         margin-top: -23px;
     }
 }
@@ -185,7 +180,6 @@
     }
 }
 
-
 @media only screen and (min-width: 1500px) {
     .modal-content {
         border-radius: 25px;
@@ -204,7 +198,7 @@
     }
 }
 
-
+/* Modal entrance animation */
 .modal.slide-in-up {
     animation: slideInUp 0.4s ease-out;
 }
@@ -233,4 +227,3 @@
         transform: translateY(100%);
     }
 }
-

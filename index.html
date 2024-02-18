@@ -10,14 +10,15 @@
     <link rel="stylesheet" href="project.css">
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="modalstyle.css">
+    <link rel="stylesheet" href="hover.css">
 </head>
 
 <body>
     <!-- Header -->
     <header class="header-container">
-        <img class="header-image" src="Images/Profile.png" alt="Sua Foto">
-        <h1 style="font-size:25px; margin-top:6px">Murilo Glasser</h1>
-        <p style="font-size:19px; margin-top:-10px">Game Developer</p>
+        <img class="header-image" src="Images/Profile.png" alt="Your Photo">
+        <h1 style="font-size: 25px; margin-top: 6px">Murilo Glasser</h1>
+        <p style="font-size: 19px; margin-top: -10px">Game Developer</p>
 
         <div class="social-icons">
             <a href="https://www.linkedin.com/in/murilo-glasser-718924207/" target="_blank" class="social-icon linkedin">
@@ -26,8 +27,9 @@
             <a href="https://github.com/muriloglasser" target="_blank" class="social-icon github" style="margin-left: 6px">
                 <img src="Images/Git.png" alt="Github">
             </a>
-            <a href="https://drive.google.com/file/d/1AFzeGMNF4_L9Id-kR-lMRKRi4pIKtIeK/view?usp=sharing" target="_blank" class="social-icon github" style="margin-left: 6px">
-                <img src="Images/CV.png" alt="Github">
+            <a href="https://drive.google.com/file/d/1AFzeGMNF4_L9Id-kR-lMRKRi4pIKtIeK/view?usp=sharing"
+               target="_blank" class="social-icon cv" style="margin-left: 6px">
+                <img src="Images/CV.png" alt="CV">
             </a>
         </div>
     </header>
@@ -36,6 +38,7 @@
 
     <!-- Projects -->
     <section>
+        <!-- Project 1 -->
         <div class="project" ontouchstart="changeImage('project1', 'Gifs/CK-hover.gif')" ontouchend="changeImage('project1', 'Images/CK.jpg')">
             <img src="Images/CK.jpg" id="project1" onclick="openModal('project1')" onmouseover="changeImage('project1', 'Gifs/CK-hover.gif')" onmouseout="changeImage('project1', 'Images/CK.jpg')">
             <div class="project-content">
@@ -50,13 +53,14 @@
                 </p>
                 <div class="contributions">
                     <strong>CONTRIBUTIONS:</strong>
-                    <br></br>
+                    <br>
                     <li><strong>Gameplay Programming</strong></li>
                     <li><strong>Enemies Programming</strong></li>
                 </div>
             </div>
         </div>
 
+        <!-- Project 2 -->
         <div class="project" ontouchstart="changeImage('project4', 'Gifs/JT-hover.gif')" ontouchend="changeImage('project4', 'Images/JT.png')">
             <img src="Images/JT.png" id="project4" onclick="openModal('project4')" onmouseover="changeImage('project4', 'Gifs/JT-hover.gif')" onmouseout="changeImage('project4', 'Images/JT.png')">
             <div class="project-content">
@@ -79,6 +83,7 @@
             </div>
         </div>
 
+        <!-- Project 3 -->
         <div class="project" ontouchstart="changeImage('project3', 'Gifs/FB-hover.gif')" ontouchend="changeImage('project3', 'Images/FB.png')">
             <img src="Images/FB.png" id="project3" onclick="openModal('project3')" onmouseover="changeImage('project3', 'Gifs/FB-hover.gif')" onmouseout="changeImage('project3', 'Images/FB.png')">
             <div class="project-content">
@@ -103,6 +108,7 @@
             </div>
         </div>
 
+        <!-- Project 4 -->
         <div class="project" ontouchstart="changeImage('project2', 'Gifs/MBS-hover.gif')" ontouchend="changeImage('project2', 'Images/MBS.png')">
             <img src="Images/MBS.png" id="project2" onclick="openModal('project2')" onmouseover="changeImage('project2', 'Gifs/MBS-hover.gif')" onmouseout="changeImage('project2', 'Images/MBS.png')">
             <div class="project-content">
@@ -126,6 +132,7 @@
             </div>
         </div>
 
+        <!-- Project 5 -->
         <div class="project" ontouchstart="changeImage('project5', 'Gifs/BQ-hover.gif')" ontouchend="changeImage('project5', 'Images/BQ.png')">
             <img src="Images/BQ.png" id="project5" onclick="openModal('project5')" onmouseover="changeImage('project5', 'Gifs/BQ-hover.gif')" onmouseout="changeImage('project5', 'Images/BQ.png')">
             <div class="project-content">
@@ -150,6 +157,7 @@
             </div>
         </div>
 
+        <!-- Project 6 -->
         <div class="project" ontouchstart="changeImage('project10', 'Gifs/SA-hover.gif')" ontouchend="changeImage('project10', 'Images/SA.png')">
             <img src="Images/SA.png" id="project10" onclick="openModal('project10')" onmouseover="changeImage('project10', 'Gifs/SA-hover.gif')" onmouseout="changeImage('project10', 'Images/SA.png')">
             <div class="project-content">
@@ -172,6 +180,7 @@
             </div>
         </div>
 
+        <!-- Project 7 -->
         <div class="project" ontouchstart="changeImage('project7', 'Gifs/JP-hover.gif')" ontouchend="changeImage('project7', 'Images/JP.png')">
             <img src="Images/JP.png" id="project7" onclick="openModal('project7')" onmouseover="changeImage('project7', 'Gifs/JP-hover.gif')" onmouseout="changeImage('project7', 'Images/JP.png')">
             <div class="project-content">
@@ -194,6 +203,7 @@
             </div>
         </div>
 
+        <!-- Project 8 -->
         <div class="project" ontouchstart="changeImage('project9', 'Gifs/CP-hover.gif')" ontouchend="changeImage('project9', 'Images/CP.png')">
             <img src="Images/CP.png" id="project9" onclick="openModal('project9')" onmouseover="changeImage('project9', 'Gifs/CP-hover.gif')" onmouseout="changeImage('project9', 'Images/CP.png')">
             <div class="project-content">
@@ -216,7 +226,7 @@
             </div>
         </div>
 
-
+        <!-- Project 9 -->
         <div class="project" ontouchstart="changeImage('project6', 'Gifs/TL-hover.gif')" ontouchend="changeImage('project6', 'Images/TL.png')">
             <img src="Images/TL.png" id="project6" onclick="openModal('project6')" onmouseover="changeImage('project6', 'Gifs/TL-hover.gif')" onmouseout="changeImage('project6', 'Images/TL.png')">
             <div class="project-content">
@@ -239,6 +249,7 @@
             </div>
         </div>
 
+        <!-- Project 10 -->
         <div class="project" ontouchstart="changeImage('project11', 'Gifs/LE-hover.gif')" ontouchend="changeImage('project11', 'Images/LE.png')">
             <img src="Images/LE.png" id="project11" onclick="openModal('project11')" onmouseover="changeImage('project11', 'Gifs/LE-hover.gif')" onmouseout="changeImage('project11', 'Images/LE.png')">
             <div class="project-content">
@@ -261,6 +272,7 @@
             </div>
         </div>
 
+        <!-- Project 11 -->
         <div class="project" ontouchstart="changeImage('project8', 'Gifs/FF-hover.gif')" ontouchend="changeImage('project8', 'Images/FF.png')">
             <img src="Images/FF.png" id="project8" onclick="openModal('project8')" onmouseover="changeImage('project8', 'Gifs/FF-hover.gif')" onmouseout="changeImage('project8', 'Images/FF.png')">
             <div class="project-content">
@@ -283,6 +295,7 @@
             </div>
         </div>
 
+        <!-- Project 12 -->
         <div class="project" ontouchstart="changeImage('project12', 'Gifs/MC-hover.gif')" ontouchend="changeImage('project12', 'Images/MC.jpg')">
             <img src="Images/MC.jpg" id="project12" onclick="openModal('project12')" onmouseover="changeImage('project12', 'Gifs/MC-hover.gif')" onmouseout="changeImage('project12', 'Images/MC.jpg')">
             <div class="project-content">
@@ -306,7 +319,6 @@
         </div>
 
     </section>
-
     <script src="script.js"></script>
 
     <div class="white-divider"></div>
@@ -314,35 +326,22 @@
     <!-- Footer -->
     <footer class="footer-container">
         <div class="contact-info">
-<!--            <p style="font-size: 23px; margin-top: 0px;"><strong>CONTACT</strong></p>
--->
             <a class="contact-icon" href="mailto:murilo.glasser@hotmail.com">
-                <img style="margin-top: -4px" src="Images/email.png" alt="Github">
+                <img style="margin-top: -4px" src="Images/email.png" alt="Email">
             </a>
-
-            <p style="margin-top: 10px "><strong> murilo.glasser@hotmail.com</strong></p>
+            <p style="margin-top: 10px"><strong>murilo.glasser@hotmail.com</strong></p>
 
             <a class="contact-icon" href="tel:+5515996003473">
-                <img style="margin-top: 18px" src="Images/phone.png" alt="Github">
+                <img style="margin-top: 18px" src="Images/phone.png" alt="Phone">
             </a>
-
-            <p style="margin-top: 14px "><strong> +55 (15) 99600-3474</strong></p>
+            <p style="margin-top: 14px"><strong>+55 (15) 99600-3474</strong></p>
 
             <a class="contact-icon" href="geo:-23.5062,-47.4559">
-                <img style="margin-top: 18px" src="Images/location.png" alt="Github">
+                <img style="margin-top: 18px" src="Images/location.png" alt="Location">
             </a>
+            <p style="margin-top: 14px"><strong>Sorocaba, Brazil</strong></p>
+        </div>     
 
-            <p style="margin-top: 14px "><strong> Sorocaba, Brazil </strong></pstyle="margin-top:>
-        </div>
-
-      <!--  <div class="social-icons">
-            <a href="https://www.linkedin.com/in/murilo-glasser-718924207/" target="_blank" class="social-icon linkedin">
-                <img style="margin-top: -15px" src="Images/Linkedin.png" alt="LinkedIn">
-            </a>
-            <a href="https://github.com/muriloglasser" target="_blank" class="social-icon github" style="margin-left: 6px">
-                <img style="margin-top: -15px" src="Images/Git.png" alt="Github">
-            </a>
-        </div>-->
     </footer>
 
     <!-- Project information modal -->
@@ -351,7 +350,6 @@
             <div id="modalContent"></div>
         </div>
     </div>
-
 
 </body>
 

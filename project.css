@@ -40,15 +40,10 @@ body {
         margin-left: 4px;
     }
 
-    .project:hover img {
-        transform: scale(1.05);
-    }
-
 /* Contributions Section Styles */
 .contributions {
     text-align: left;
 }
-
 
 /* Project Content Styles */
 .project-content {
@@ -79,7 +74,6 @@ body {
 .project-content .tag {
     margin-top: -10px;
 }
-
 
 /* Responsive Design */
 @media only screen and (max-width: 1200px) {

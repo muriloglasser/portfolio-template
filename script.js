@@ -23,7 +23,6 @@ function openModal(projectId) {
     window.addEventListener('click', outsideClick);
 }
 
-
 // Close project modal
 function closeModal() {
     var modal = document.getElementById("myModal");
@@ -33,18 +32,17 @@ function closeModal() {
     window.removeEventListener('click', outsideClick);
     modal.classList.remove('slide-in-up');
 
-    // Adicionar classe de animação de saída
+    // Add exit animation class
     modal.classList.add('slide-out-up');
 
-    // Aguardar o término da animação de saída antes de ocultar a modal
+    // Wait for the end of exit animation before hiding the modal
     modal.addEventListener('animationend', () => {
-        // Ocultar a modal
+        // Hide the modal
         modal.style.display = 'none';
 
-        // Remover a classe de animação de saída
+        // Remove the exit animation class
         modal.classList.remove('slide-out-up');
     }, { once: true });
-
 }
 
 function outsideClick(event) {
@@ -54,8 +52,6 @@ function outsideClick(event) {
         closeModal();
     }
 }
-
-
 
 // Set modal with project information
 function getProjectContent(projectId) {
@@ -85,25 +81,25 @@ function getProjectContent(projectId) {
                             <div class="project-links">
                                 <h2>Links</h2>
 
-                                <a href="https://store.steampowered.com/app/1681870/Cobra_Kai_2_Dojos_Rising/" target="_blank" class="social-icon github" style="margin-left: 6px">
+                                <a href="https://store.steampowered.com/app/1681870/Cobra_Kai_2_Dojos_Rising/" target="_blank" class="social-icon device" style="margin-left: 6px">
                                     <img src="Images/Steam.png" alt="Github">
                                 </a>
 
-                                <a href="https://store.playstation.com/pt-br/product/UP0283-PPSA04644_00-4810208968054641" target="_blank" class="social-icon github" style="margin-left: 6px">
+                                <a href="https://store.playstation.com/pt-br/product/UP0283-PPSA04644_00-4810208968054641" target="_blank" class="social-icon device" style="margin-left: 6px">
                                     <img src="Images/Playstation.png" alt="Github">
                                 </a>
 
-                                <a href="https://www.xbox.com/pt-BR/games/store/cobra-kai-2-dojos-rising/9NP4WZNSN0NN" target="_blank" class="social-icon github" style="margin-left: 6px">
+                                <a href="https://www.xbox.com/pt-BR/games/store/cobra-kai-2-dojos-rising/9NP4WZNSN0NN" target="_blank" class="social-icon device" style="margin-left: 6px">
                                     <img src="Images/Xbox.png" alt="Github">
                                 </a>
 
-                                <a href="https://www.nintendo.com/pt-br/store/products/cobra-kai-2-dojos-rising-switch/" target="_blank" class="social-icon github" style="margin-left: 6px">
+                                <a href="https://www.nintendo.com/pt-br/store/products/cobra-kai-2-dojos-rising-switch/" target="_blank" class="social-icon device" style="margin-left: 6px">
                                     <img src="Images/Nintendo.png" alt="Github">
                                 </a>
                             </div>
 
                             <div class="close">
-                                <span onclick="closeModal()" target="_blank" class="social-icon github">&times;</span>
+                                <span onclick="closeModal()" target="_blank" class="social-icon quit">&times;</span>
                             </div>
 `                   ;
             break;
@@ -127,14 +123,14 @@ function getProjectContent(projectId) {
                             <div class="project-links">
                                 <h2>Links</h2>
 
-                                <a href="https://store.steampowered.com/app/2290440/Mega_Button_Soccer/" target="_blank" class="social-icon github" style="margin-left: 0px">
+                                <a href="https://store.steampowered.com/app/2290440/Mega_Button_Soccer/" target="_blank" class="social-icon device" style="margin-left: 0px">
                                     <img src="Images/Steam.png" alt="Github">
                                 </a>
                             </div>
 
 
                             <div class="close">
-                                <span onclick="closeModal()" target="_blank" class="social-icon github">&times;</span>
+                                <span onclick="closeModal()" target="_blank" class="social-icon quit">&times;</span>
                             </div>
 `                   ;
             break;
@@ -159,11 +155,11 @@ function getProjectContent(projectId) {
                                 <h2>Links</h2>
 
 
-                                <a href="https://store.steampowered.com/app/2331990/Food_Boy/" target="_blank" class="social-icon github" style="margin-left: 6px">
+                                <a href="https://store.steampowered.com/app/2331990/Food_Boy/" target="_blank" class="social-icon device" style="margin-left: 6px">
                                     <img src="Images/Steam.png" alt="Github">
                                 </a>
 
-                                <a href="https://store.playstation.com/pt-br/concept/10007747" target="_blank" class="social-icon github" style="margin-left: 6px">
+                                <a href="https://store.playstation.com/pt-br/concept/10007747" target="_blank" class="social-icon device" style="margin-left: 6px">
                                     <img src="Images/Playstation.png" alt="Github">
                                 </a>
                              
@@ -171,7 +167,7 @@ function getProjectContent(projectId) {
 
 
                             <div class="close">
-                                <span onclick="closeModal()" target="_blank" class="social-icon github">&times;</span>
+                                <span onclick="closeModal()" target="_blank" class="social-icon quit">&times;</span>
                             </div>
 `                   ;
             break;
@@ -194,18 +190,18 @@ function getProjectContent(projectId) {
 
                             <div class="project-links">
                                 <h2>Links</h2>
-                                <a href="https://play.google.com/store/search?q=Joy%20%26%20toy&c=apps" target="_blank" class="social-icon github" style="margin-left: 6px">
+                                <a href="https://play.google.com/store/search?q=Joy%20%26%20toy&c=apps" target="_blank" class="social-icon device" style="margin-left: 6px">
                                     <img src="Images/Playstore.png" alt="Github">
                                 </a>
 
-                                <a href="https://apps.apple.com/br/app/aventuras-de-poliana-joy-toy/id1481899470" target="_blank" class="social-icon github" style="margin-left: 6px">
+                                <a href="https://apps.apple.com/br/app/aventuras-de-poliana-joy-toy/id1481899470" target="_blank" class="social-icon device" style="margin-left: 6px">
                                     <img src="Images/Appstore.png" alt="Github">
                                 </a>                               
                             </div>
 
 
                             <div class="close">
-                                <span onclick="closeModal()" target="_blank" class="social-icon github">&times;</span>
+                                <span onclick="closeModal()" target="_blank" class="social-icon quit">&times;</span>
                             </div>
 `                   ;
             break;
@@ -228,7 +224,7 @@ function getProjectContent(projectId) {
 
 
                             <div class="close">
-                                <span onclick="closeModal()" target="_blank" class="social-icon github">&times;</span>
+                                <span onclick="closeModal()" target="_blank" class="social-icon quit">&times;</span>
                             </div>
 `                   ;
             break;
@@ -251,18 +247,18 @@ function getProjectContent(projectId) {
 
                             <div class="project-links">
                                 <h2>Links</h2>
-                                <a href="https://play.google.com/store/apps/details?id=com.liga.traderlife&hl=pt_BR&gl=US" target="_blank" class="social-icon github" style="margin-left: 6px">
+                                <a href="https://play.google.com/store/apps/details?id=com.liga.traderlife&hl=pt_BR&gl=US" target="_blank" class="social-icon device" style="margin-left: 6px">
                                     <img src="Images/Playstore.png" alt="Github">
                                 </a>
 
-                                <a href="https://apps.apple.com/br/app/traders-life/id1475175020" target="_blank" class="social-icon github" style="margin-left: 6px">
+                                <a href="https://apps.apple.com/br/app/traders-life/id1475175020" target="_blank" class="social-icon device" style="margin-left: 6px">
                                     <img src="Images/Appstore.png" alt="Github">
                                 </a>
                             </div>
 
 
                             <div class="close">
-                                <span onclick="closeModal()" target="_blank" class="social-icon github">&times;</span>
+                                <span onclick="closeModal()" target="_blank" class="social-icon quit">&times;</span>
                             </div>
 `                   ;
             break;
@@ -285,7 +281,7 @@ function getProjectContent(projectId) {
 
 
                             <div class="close">
-                                <span onclick="closeModal()" target="_blank" class="social-icon github">&times;</span>
+                                <span onclick="closeModal()" target="_blank" class="social-icon quit">&times;</span>
                             </div>
 `                   ;
             break;
@@ -308,7 +304,7 @@ function getProjectContent(projectId) {
 
 
                             <div class="close">
-                                <span onclick="closeModal()" target="_blank" class="social-icon github">&times;</span>
+                                <span onclick="closeModal()" target="_blank" class="social-icon quit">&times;</span>
                             </div>
 `                   ;
             break;
@@ -331,7 +327,7 @@ function getProjectContent(projectId) {
 
 
                             <div class="close">
-                                <span onclick="closeModal()" target="_blank" class="social-icon github">&times;</span>
+                                <span onclick="closeModal()" target="_blank" class="social-icon quit">&times;</span>
                             </div>
 `                   ;
             break;
@@ -354,7 +350,7 @@ function getProjectContent(projectId) {
 
 
                             <div class="close">
-                                <span onclick="closeModal()" target="_blank" class="social-icon github">&times;</span>
+                                <span onclick="closeModal()" target="_blank" class="social-icon quit">&times;</span>
                             </div>
 `                   ;
             break;
@@ -377,7 +373,7 @@ function getProjectContent(projectId) {
 
 
                             <div class="close">
-                                <span onclick="closeModal()" target="_blank" class="social-icon github">&times;</span>
+                                <span onclick="closeModal()" target="_blank" class="social-icon quit">&times;</span>
                             </div>
 `                   ;
             break;
@@ -400,7 +396,7 @@ function getProjectContent(projectId) {
 
 
                             <div class="close">
-                                <span onclick="closeModal()" target="_blank" class="social-icon github">&times;</span>
+                                <span onclick="closeModal()" target="_blank" class="social-icon quit">&times;</span>
                             </div>
 `                   ;
             break;
@@ -411,10 +407,10 @@ function getProjectContent(projectId) {
 }
 
 
-/* <a href="https://www.xbox.com/pt-BR/games/store/cobra-kai-2-dojos-rising/9NP4WZNSN0NN" target="_blank" class="social-icon github" style="margin-left: 6px">
+/* <a href="https://www.xbox.com/pt-BR/games/store/cobra-kai-2-dojos-rising/9NP4WZNSN0NN" target="_blank" class="social-icon device" style="margin-left: 6px">
                                   <img src="Images/Xbox.png" alt="Github">
                               </a>
 
-                              <a href="https://www.nintendo.com/pt-br/store/products/cobra-kai-2-dojos-rising-switch/" target="_blank" class="social-icon github" style="margin-left: 6px">
+                              <a href="https://www.nintendo.com/pt-br/store/products/cobra-kai-2-dojos-rising-switch/" target="_blank" class="social-icon device" style="margin-left: 6px">
                                   <img src="Images/Nintendo.png" alt="Github">
                               </a>*/
