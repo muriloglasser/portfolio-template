@@ -138,9 +138,31 @@
 
 /* Responsiveness for medium screens */
 @media (min-width: 679px) {
+
     .modal-content {
-        padding-top:15px;
-        padding-bottom:15px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-radius: 25px;
+        width: 60%;
+        max-height: 90%;
+        text-align: center;
+    }
+
+    .project-video iframe {
+        margin-top: -45px;
+        width: 97%;
+    }
+
+    .project-description {
+        margin-top: -40px;
+    }
+    
+}
+
+@media only screen and (min-width: 1500px) {
+    .modal-content {
+        padding-top: 15px;
+        padding-bottom: 15px;
         border-radius: 25px;
         max-width: 40%;
         max-height: 90%;
@@ -155,33 +177,7 @@
     .project-description {
         margin-top: -40px;
     }
-
-    
 }
-
-/*@media only screen and (min-width: 1500px) {
-    .modal-content {
-        padding-top: 15px;
-        padding-bottom: 15px;
-        border-radius: 25px;
-        max-width: 35%;
-        max-height: 90%;
-        text-align: center;
-    }
-
-    .project-video iframe {
-        margin-top: -50px;
-        width: 600px;
-    }
-
-    .project-description {
-        margin-top: -40px;
-    }
-
-    .project-title {
-        margin-bottom: 32px;
-    }
-}*/
 
 /* Responsiveness for large screens */
 /*@media only screen and (min-width: 900px) {
