@@ -69,7 +69,7 @@ function closeModal() {
 }
 
 function outsideClick(event) {
-    var modal = document.getElementById('myModal');
+    var modal = document.getElementById('modal-c');
 
     if (event.target === modal) {
         closeModal();
