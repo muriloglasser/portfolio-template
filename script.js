@@ -222,6 +222,10 @@ function getProjectContent(projectId) {
                                 </div>
                             </div>
 
+                            <div class="project-links">
+                                <h2>Links</h2>
+                                <h4>This project does not have available links.</h4>                                
+                            </div>
 
                             <div class="close">
                                 <span onclick="closeModal()" target="_blank" class="social-icon quit">&times;</span>
@@ -254,8 +258,7 @@ function getProjectContent(projectId) {
                                 <a href="https://apps.apple.com/br/app/traders-life/id1475175020" target="_blank" class="social-icon device" style="margin-left: 6px">
                                     <img src="Images/Appstore.png" alt="Github">
                                 </a>
-                            </div>
-
+                            </div>                  
 
                             <div class="close">
                                 <span onclick="closeModal()" target="_blank" class="social-icon quit">&times;</span>
@@ -279,6 +282,10 @@ function getProjectContent(projectId) {
                                 </div>
                             </div>
 
+                            <div class="project-links">
+                                <h2>Links</h2>
+                                <h4>This project does not have available links.</h4>
+                            </div>
 
                             <div class="close">
                                 <span onclick="closeModal()" target="_blank" class="social-icon quit">&times;</span>
@@ -302,6 +309,10 @@ function getProjectContent(projectId) {
                                 </div>
                             </div>
 
+                            <div class="project-links">
+                                <h2>Links</h2>
+                                <h4>This project does not have available links.</h4>
+                            </div>
 
                             <div class="close">
                                 <span onclick="closeModal()" target="_blank" class="social-icon quit">&times;</span>
@@ -325,6 +336,10 @@ function getProjectContent(projectId) {
                                 </div>
                             </div>
 
+                            <div class="project-links">
+                                <h2>Links</h2>
+                                <h4>This project does not have available links.</h4>
+                            </div>
 
                             <div class="close">
                                 <span onclick="closeModal()" target="_blank" class="social-icon quit">&times;</span>
@@ -348,6 +363,10 @@ function getProjectContent(projectId) {
                                 </div>
                             </div>
 
+                            <div class="project-links">
+                                <h2>Links</h2>
+                                <h4>This project does not have available links.</h4>
+                            </div>
 
                             <div class="close">
                                 <span onclick="closeModal()" target="_blank" class="social-icon quit">&times;</span>
@@ -371,6 +390,10 @@ function getProjectContent(projectId) {
                                 </div>
                             </div>
 
+                            <div class="project-links">
+                                <h2>Links</h2>
+                                <h4>This project does not have available links.</h4>
+                            </div>
 
                             <div class="close">
                                 <span onclick="closeModal()" target="_blank" class="social-icon quit">&times;</span>
@@ -394,6 +417,10 @@ function getProjectContent(projectId) {
                                 </div>
                             </div>
 
+                            <div class="project-links">
+                                <h2>Links</h2>
+                                <h4>This project does not have available links.</h4>
+                            </div>
 
                             <div class="close">
                                 <span onclick="closeModal()" target="_blank" class="social-icon quit">&times;</span>
