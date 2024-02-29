@@ -24,15 +24,9 @@ header {
     border: 5px solid #ffffff;
 }
 
-/* White divider below the header */
-.white-divider {
-    height: 5px;
-    background-color: white;
-}
-
 /* Styling for the header container with a repeating background image */
 .header-container {
-    background-image: url('Images/Header3.jpg');
+    background-image: url('Images/Header5.jpg');
     background-repeat: repeat;
     background-size: 400px; /* or desired size */
     /* Additional header styling properties */

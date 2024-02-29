@@ -12,18 +12,23 @@
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="modalstyle.css">
     <link rel="stylesheet" href="hover.css">
+    <link rel="stylesheet" href="divider.css">
 </head>
 
 <body>
 
-    <script src="modal.js"></script>
+    <!-- Scripts -->
+    <script src="header.js"></script>
     <script src="overlay.js"></script>
+    <script src="modal.js"></script>
 
     <!-- Initial overlay -->
     <div id="overlay">
         <!-- Header -->
         <header class="header-container">
-            <img class="header-image" src="Images/Profile.png" alt="Your Photo">
+            <div class="header-image-container" ontouchstart="changeHeaderImage('Images/Profile2.png')" ontouchend="returnHeaderImage('Images/Profile.png')">
+                <img class="header-image" id="header-image" src="Images/Profile.png" alt="Your Photo" onmouseover="changeHeaderImage('Images/Profile2.png')" onmouseout="returnHeaderImage('Images/Profile.png')">
+            </div>
             <h1 style="font-size: 25px; margin-top: 6px">Murilo Glasser</h1>
             <p style="font-size: 19px; margin-top: -10px">Game Developer</p>
 
@@ -41,7 +46,8 @@
             </div>
         </header>
 
-        <div class="white-divider"></div>
+        <!-- Horizontal white strip -->
+        <div class="horizontal-divider"></div>
 
         <!-- Projects -->
         <section>
@@ -327,7 +333,8 @@
 
         </section>
 
-        <div class="white-divider"></div>
+        <!-- Horizontal white strip -->
+        <div class="horizontal-divider"></div>
 
         <!-- Project information modal -->
         <div id="myModal" class="modal">

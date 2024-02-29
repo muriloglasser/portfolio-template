@@ -9,6 +9,15 @@
 }
 
 /* Hover effect for social icons */
+.header-image:hover {
+    transform: scale(1.06);
+}
+/* Styling for contact icons */
+.header-image {
+    transition: transform 0.2s ease-in-out;
+}
+
+/* Hover effect for social icons */
 .social-icon:hover {
     transform: scale(1.2);
 }

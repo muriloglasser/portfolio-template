@@ -82,7 +82,7 @@
 
 /* Project description styling */
 .project-description {
-    font-size: 20px;
+    font-size: 18px;
     color: #ffffff;
     margin-top: -22px;
     margin-right: 27px;
@@ -94,6 +94,7 @@
 
 /* Project links styling */
 .project-links {
+    font-size: 13px;
     border: 3px solid #ffffff;
     width: 100%;
     margin: 10px 0;
@@ -129,6 +130,8 @@
 
     .title-bg {
         border-radius: 19px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
         margin-right: -4.5px; /* Ajuste a quantidade de pixels conforme necessário */
         margin-top: 3px;
     }
@@ -141,7 +144,7 @@
         padding-top: 15px;
         padding-bottom: 15px;
         border-radius: 25px;
-        max-width: 80%;
+        width: 80%;
         max-height: 90%;
         text-align: center;
         padding: 1000px;
@@ -150,7 +153,7 @@
     .project-video iframe {
         margin-right: -4.5px; /* Ajuste a quantidade de pixels conforme necessário */
         margin-top: -50px;
-        width: auto;
+        width: 100%;
         max-height: 70vh;
     }
 
@@ -170,7 +173,7 @@
         padding-top: 15px;
         padding-bottom: 15px;
         border-radius: 15px;
-        width: 60%;
+        width: 40%;
         max-height: 100%;
         text-align: center;
     }
