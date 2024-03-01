@@ -125,6 +125,7 @@
     box-shadow: 0 8px 33px rgba(255, 255, 255, 0.3);
 }
 
+
 /* Responsiveness for smaller screens */
 @media (max-width: 678px) {
 
@@ -162,36 +163,86 @@
     }
 }
 
-/* Responsiveness for medium screens */
+/* Responsiveness for smaller screens */
 @media (min-width: 679px) {
 
     .title-bg {
-        margin-right: -5px; /* Ajuste a quantidade de pixels conforme necessário */
+        border-radius: 19px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        margin-right: -4.5px; /* Ajuste a quantidade de pixels conforme necessário */
+        margin-top: 3px;
+    }
+
+    .close {
+        margin-bottom: 6px;
     }
 
     .modal-content {
         padding-top: 15px;
         padding-bottom: 15px;
-        border-radius: 15px;
-        width: 40%;
-        max-height: 100%;
+        border-radius: 25px;
+        width: 70%;
+        max-height: 90%;
         text-align: center;
+        padding: 1000px;
     }
 
     .project-video iframe {
-        margin-top: -45px;
+        margin-right: -4.5px; /* Ajuste a quantidade de pixels conforme necessário */
+        margin-top: -50px;
         width: 100%;
+        max-height: 70vh;
     }
 
     .project-description {
-        margin-top: -40px;
+        margin-top: -41px;
     }
 }
 
-@media only screen and (min-width: 1500px) {
+
+/* Responsiveness for medium screens */
+@media (min-width: 1023px) {
+
+
     .title-bg {
-        margin-right: -5px; /* Ajuste a quantidade de pixels conforme necessário */
-        margin-top: 26px;
+        border-radius: 19px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        margin-right: -4.5px; /* Ajuste a quantidade de pixels conforme necessário */
+        margin-top: 3px;
+    }
+
+    .close {
+        margin-bottom: 6px;
+    }
+
+    .modal-content {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-radius: 25px;
+        width: 40%;
+        max-height: 90%;
+        text-align: center;
+        padding: 1000px;
+    }
+
+    .project-video iframe {
+        margin-right: -4.5px; /* Ajuste a quantidade de pixels conforme necessário */
+        margin-top: -50px;
+        width: 100%;
+        max-height: 70vh;
+    }
+
+    .project-description {
+        margin-top: -41px;
+    }
+}
+
+/*@media only screen and (min-width: 1500px) {
+    .title-bg {
+        margin-right: -5px;*/ /* Ajuste a quantidade de pixels conforme necessário */
+        /*margin-top: 26px;
     }
 
     .modal-content {
@@ -211,7 +262,7 @@
     .project-description {
         margin-top: -40px;
     }
-}
+}*/
 
 /* Responsiveness for large screens */
 /*@media only screen and (min-width: 900px) {
