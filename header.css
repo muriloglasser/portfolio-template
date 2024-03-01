@@ -19,14 +19,19 @@ header {
 
 /* Styling for the circular header image */
 .header-image {
-    margin-top:20px;
+    margin-top:60px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 1);
-    width: 150px;
+    width: 180px;
     height: auto;
     border-radius: 50%;
     border: 5px solid #ffffff;
 }
 
+.social-icons
+{
+    padding-bottom:20px;
+
+}
 /* Styling for the header container with a repeating background image */
 .header-container {
     background-image: url('Images/Header5.jpg');
