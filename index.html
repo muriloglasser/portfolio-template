@@ -7,6 +7,7 @@
     <title>Game Developer | Murilo Glasser</title>
     <link rel="icon" href="Icos/Gamepad.ico" type="image/x-icon">
     <link rel="stylesheet" href="overlay.css">
+    <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="project.css">
     <link rel="stylesheet" href="footer.css">
@@ -24,6 +25,7 @@
 
     <!-- Initial overlay -->
     <div id="overlay">
+
         <!-- Header -->
         <header class="header-container">
             <div class="header-image-container" ontouchstart="changeHeaderImage('Images/Profile2.png')" ontouchend="returnHeaderImage('Images/Profile.png')">
@@ -44,13 +46,22 @@
                     <img src="Images/CV.png" alt="CV">
                 </a>
             </div>
+
+            <!-- Nav Bar -->
+            <div class="nav-container">
+                <nav>
+                    <a href="#about-me">ABOUT ME</a>
+                    <a href="#projects">PROJECTS</a>
+                    <a href="#contact">CONTACT</a>
+                </nav>
+            </div>
         </header>
 
         <!-- Horizontal white strip -->
         <div class="horizontal-divider"></div>
 
         <!-- Projects -->
-        <section>
+        <section id="projects">
             <!-- Project 1 -->
             <div class="project" ontouchstart="changeImage('project1', 'Gifs/CK-hover.gif')" ontouchend="returnImage('project1', 'Images/CK.jpg')">
                 <img src="Images/CK.jpg" id="project1" onclick="openModal('project1')" onmouseover="changeImage('project1', 'Gifs/CK-hover.gif')" onmouseout="returnImage('project1', 'Images/CK.jpg')">
@@ -345,26 +356,27 @@
 
         <!-- Footer -->
         <footer class="footer-container">
-            <div class="contact-info">
-                <a class="contact-icon" href="mailto:murilo.glasser@hotmail.com">
-                    <img style="margin-top: -4px" src="Images/email.png" alt="Email">
-                </a>
-                <p style="margin-top: 10px"><strong>murilo.glasser@hotmail.com</strong></p>
+            <!--<a class="contact-icon" href="mailto:murilo.glasser@hotmail.com">
+                <img style="margin-top: -4px" src="Images/email.png" alt="Email">
+            </a>
+            <p style="margin-top: 10px"><strong>murilo.glasser@hotmail.com</strong></p>
 
-                <a class="contact-icon" href="tel:+5515996003473">
-                    <img style="margin-top: 18px" src="Images/phone.png" alt="Phone">
-                </a>
-                <p style="margin-top: 14px"><strong>+55 (15) 99600-3474</strong></p>
+            <a class="contact-icon" href="tel:+5515996003473">
+                <img style="margin-top: 18px" src="Images/phone.png" alt="Phone">
+            </a>
+            <p style="margin-top: 14px"><strong>+55 (15) 99600-3474</strong></p>
 
-                <a class="contact-icon" href="geo:-23.5062,-47.4559">
-                    <img style="margin-top: 18px" src="Images/location.png" alt="Location">
-                </a>
-                <p style="margin-top: 14px"><strong>Sorocaba, Brazil</strong></p>
-            </div>
+            <a class="contact-icon" href="geo:-23.5062,-47.4559">
+                <img style="margin-top: 18px" src="Images/location.png" alt="Location">
+            </a>
+            <p style="margin-top: 14px"><strong>Sorocaba, Brazil</strong></p>-->
 
         </footer>
 
     </div>
+
+    <!-- Smooth scroll script -->
+    <script src="smoothscroll.js"></script>
 
 </body>
 

@@ -27,4 +27,6 @@ footer {
     background-image: url('Images/Header5.jpg');
     background-repeat: repeat;
     background-size: 400px;
+
+    padding-bottom:160px;
 }
