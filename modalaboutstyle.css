@@ -1,0 +1,111 @@
+
+
+/* Header background styling */
+.about-title-bg {
+    width: auto;
+    margin: 10px 0;
+    margin-bottom: 42px;
+    margin-top: 35px;
+    background-color: #a0a0a0;
+    line-height: 1;
+    background-color: rgba(0, 0, 0, 1);
+    border: 3px solid #ffffff;
+    border-radius: 29px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    box-shadow: 0 8px 33px rgba(255, 255, 255, 0.3);
+}
+
+.stack-icon img {
+    margin-top: -10px;
+    width: 42px;
+    height: 42px;
+}
+
+.about-modal-content {
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 13px;
+    border: 2px solid rgba(255, 255, 255, 0.9);
+    background-image: url('Images/Header4.jpg');
+    background-repeat: repeat;
+    background-size: 550px;
+    overflow-y: auto;
+    padding-top: 2px;
+    padding-right: 20px;
+    padding-left: 19px;
+    padding: 1000px;
+    box-shadow: 0 8px 33px rgba(255, 255, 255, 0.3);
+}
+
+/* Responsiveness for smaller screens */
+@media (max-width: 678px) {
+
+    .about-title-bg {
+        border-radius: 19px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        margin-right: -4.5px; /* Ajuste a quantidade de pixels conforme necessário */
+        margin-top: 3px;
+        margin-bottom: 15px;
+    }
+
+    .about-modal-content {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-radius: 25px;
+        width: 80%;
+        max-height: 90%;
+        text-align: center;
+        padding: 1000px;
+    }
+}
+
+/* Responsiveness for smaller screens */
+@media (min-width: 679px) {
+
+    .about-title-bg {
+        border-radius: 19px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        margin-right: -4.5px; /* Ajuste a quantidade de pixels conforme necessário */
+        margin-top: 3px;
+        margin-bottom: 15px;
+    }
+
+    .about-modal-content {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-radius: 25px;
+        width: 70%;
+        max-height: 90%;
+        text-align: center;
+        padding: 1000px;
+    }
+}
+
+/* Responsiveness for medium screens */
+@media (min-width: 1023px) {
+
+    .about-title-bg {
+        border-radius: 19px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        margin-right: -4.5px; /* Ajuste a quantidade de pixels conforme necessário */
+        margin-top: 3px;
+        margin-bottom: 15px;
+    }
+
+    .about-modal-content {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-radius: 25px;
+        width: 35%;
+        max-height: 90%;
+        text-align: center;
+        padding: 1000px;
+    }
+}

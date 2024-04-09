@@ -9,9 +9,11 @@
     <link rel="stylesheet" href="overlay.css">
     <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="header.css">
-    <link rel="stylesheet" href="project.css">
+    <link rel="stylesheet" href="projectstyle.css">
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="modalstyle.css">
+    <link rel="stylesheet" href="modalaboutstyle.css">
+    <link rel="stylesheet" href="modalcontactstyle.css">
     <link rel="stylesheet" href="hover.css">
     <link rel="stylesheet" href="divider.css">
 </head>
@@ -19,9 +21,11 @@
 <body>
 
     <!-- Scripts -->
-    <script src="header.js"></script>
-    <script src="overlay.js"></script>
-    <script src="modal.js"></script>
+    <script src="Script/header.js"></script>
+    <script src="Script/overlay.js"></script>
+    <script src="Script/modalproject.js"></script>
+    <script src="Script/project.js"></script>
+
 
     <!-- Initial overlay -->
     <div id="overlay">
@@ -50,9 +54,9 @@
             <!-- Nav Bar -->
             <div class="nav-container">
                 <nav>
-                    <a href="#about-me">ABOUT ME</a>
+                    <a href="#about-me" onclick="openModalAbout('about')">ABOUT ME</a>
                     <a href="#projects">PROJECTS</a>
-                    <a href="#contact">CONTACT</a>
+                    <a href="#contact" onclick="openModalAbout('contact')">CONTACT</a>
                 </nav>
             </div>
         </header>
@@ -352,31 +356,17 @@
             <div id="modal-c" class="modal-content">
                 <div id="modalContent"></div>
             </div>
-        </div>
+        </div> 
 
         <!-- Footer -->
         <footer class="footer-container">
-            <!--<a class="contact-icon" href="mailto:murilo.glasser@hotmail.com">
-                <img style="margin-top: -4px" src="Images/email.png" alt="Email">
-            </a>
-            <p style="margin-top: 10px"><strong>murilo.glasser@hotmail.com</strong></p>
-
-            <a class="contact-icon" href="tel:+5515996003473">
-                <img style="margin-top: 18px" src="Images/phone.png" alt="Phone">
-            </a>
-            <p style="margin-top: 14px"><strong>+55 (15) 99600-3474</strong></p>
-
-            <a class="contact-icon" href="geo:-23.5062,-47.4559">
-                <img style="margin-top: 18px" src="Images/location.png" alt="Location">
-            </a>
-            <p style="margin-top: 14px"><strong>Sorocaba, Brazil</strong></p>-->
 
         </footer>
 
     </div>
 
     <!-- Smooth scroll script -->
-    <script src="smoothscroll.js"></script>
+    <script src="Script/smoothscroll.js"></script>
 
 </body>
 

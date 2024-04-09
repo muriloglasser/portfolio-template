@@ -60,7 +60,7 @@
 }
 
     /* Make YouTube videos responsive */
-    .project-video iframe {
+.project-video iframe {
         margin-bottom: 13px;
         max-height: 70vh;
         border: 3px solid #ffffff;
@@ -238,87 +238,6 @@
         margin-top: -41px;
     }
 }
-
-/*@media only screen and (min-width: 1500px) {
-    .title-bg {
-        margin-right: -5px;*/ /* Ajuste a quantidade de pixels conforme necessário */
-        /*margin-top: 26px;
-    }
-
-    .modal-content {
-        padding-top: 15px;
-        padding-bottom: 15px;
-        border-radius: 15px;
-        max-width: 40%;
-        max-height: 100%;
-        text-align: center;
-    }
-
-    .project-video iframe {
-        margin-top: -45px;
-        width: 100%;
-    }
-
-    .project-description {
-        margin-top: -40px;
-    }
-}*/
-
-/* Responsiveness for large screens */
-/*@media only screen and (min-width: 900px) {
-    .modal-content {
-        border-radius: 25px;
-        max-width: 90%;
-        max-height: 90%;
-        text-align: center;
-    }
-
-    .project-video iframe {
-        margin-top: -40px;
-        width: 700px;
-    }
-
-    .project-description {
-        margin-top: -20px;
-    }
-}*/
-
-/* Additional breakpoints for larger screens */
-/*@media only screen and (min-width: 1300px) {
-    .modal-content {
-        border-radius: 25px;
-        max-width: 90%;
-        max-height: 90%;
-        text-align: center;
-    }
-
-    .project-video iframe {
-        margin-top: -40px;
-        width: 775px;
-    }
-
-    .project-description {
-        margin-top: -20px;
-    }
-}
-
-@media only screen and (min-width: 1500px) {
-    .modal-content {
-        border-radius: 25px;
-        max-width: 60%;
-        max-height: 90%;
-        text-align: center;
-    }
-
-    .project-video iframe {
-        margin-top: -40px;
-        width: 900px;
-    }
-
-    .project-description {
-        margin-top: -20px;
-    }
-}*/
 
 /* Modal entrance animation */
 .modal.slide-in-up {

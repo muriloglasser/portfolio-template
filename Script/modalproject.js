@@ -1,36 +1,13 @@
-var timeoutEnterId;
+var lastModal;
 
+function changeClass(modalType) {
+    document.getElementById("modal-c").className = modalType;
 
-
-// Change image with mouse hover to gif
-function changeImage(projectId, imageUrl) {
-
-    timeoutEnterId = setTimeout(function () {
-
-        var projectElement = document.getElementById(projectId);
-        if (projectElement) {
-            projectElement.src = imageUrl;
-        }
-    }, 500);
-
+  
 }
 
-// Change image with mouse hover to gif
-function returnImage(projectId, imageUrl) {
-
-    clearTimeout(timeoutEnterId);
-    setTimeout(function () {
-
-        var projectElement = document.getElementById(projectId);
-        if (projectElement) {
-            projectElement.src = imageUrl;
-        }
-    }, 200);
-
-}
-
-// Open project modal
 function openModal(projectId) {
+    changeClass('modal-content');
     var modal = document.getElementById("myModal");
     var modalContent = document.getElementById("modalContent");
     // Update modal content based on the project clicked
@@ -46,13 +23,84 @@ function openModal(projectId) {
     window.addEventListener('click', outsideClick);
 }
 
-// Close project modal
+function openModalAbout(projectId) {
+    changeClass('about-modal-content');
+    var modal = document.getElementById("myModal");
+    var modalContent = document.getElementById("modalContent");
+    // Update modal content based on the project clicked
+    var projectContent = getProjectContent(projectId);
+    modalContent.innerHTML = projectContent;
+
+    modal.style.display = "block";
+    modal.scrollTop = 0;
+    modal.classList.add('slide-in-up');
+
+    var content = document.getElementById('modal-c');
+    content.scrollTop = 0;
+    window.addEventListener('click', outsideClickAbout);
+}
+
+function openModalContac(projectId) {
+    changeClass('contact-modal-content');
+    var modal = document.getElementById("myModal");
+    var modalContent = document.getElementById("modalContent");
+    // Update modal content based on the project clicked
+    var projectContent = getProjectContent(projectId);
+    modalContent.innerHTML = projectContent;
+
+    modal.style.display = "block";
+    modal.scrollTop = 0;
+    modal.classList.add('slide-in-up');
+
+    var content = document.getElementById('modal-c');
+    content.scrollTop = 0;
+    window.addEventListener('click', outsideClickContact);
+}
+
 function closeModal() {
     var modal = document.getElementById("myModal");
     var youtubeVideo = document.getElementById("youtubeVideo");
 
     youtubeVideo.src = "";
     window.removeEventListener('click', outsideClick);
+    modal.classList.remove('slide-in-up');
+
+    // Add exit animation class
+    modal.classList.add('slide-out-up');
+
+    // Wait for the end of exit animation before hiding the modal
+    modal.addEventListener('animationend', () => {
+        // Hide the modal
+        modal.style.display = 'none';
+
+        // Remove the exit animation class
+        modal.classList.remove('slide-out-up');
+    }, { once: true });
+}
+
+function closeModalAbout() {
+    var modal = document.getElementById("myModal");
+
+    window.removeEventListener('click', outsideClickAbout);
+    modal.classList.remove('slide-in-up');
+
+    // Add exit animation class
+    modal.classList.add('slide-out-up');
+
+    // Wait for the end of exit animation before hiding the modal
+    modal.addEventListener('animationend', () => {
+        // Hide the modal
+        modal.style.display = 'none';
+
+        // Remove the exit animation class
+        modal.classList.remove('slide-out-up');
+    }, { once: true });
+}
+
+function closeModalContact() {
+    var modal = document.getElementById("myModal");
+
+    window.removeEventListener('click', outsideClickContact);
     modal.classList.remove('slide-in-up');
 
     // Add exit animation class
@@ -76,7 +124,22 @@ function outsideClick(event) {
     }
 }
 
-// Set modal with project information
+function outsideClickAbout(event) {
+    var modal = document.getElementById('modal-c');
+
+    if (event.target === modal) {
+        closeModalAbout();
+    }
+}
+
+function outsideClickContact(event) {
+    var modal = document.getElementById('modal-c');
+
+    if (event.target === modal) {
+        closeModalAbout();
+    }
+}
+
 function getProjectContent(projectId) {
 
     var videoId; // Set the YouTube video ID for each project
@@ -84,6 +147,80 @@ function getProjectContent(projectId) {
 
     // Determine the video ID and project information based on the selected project
     switch (projectId) {
+        case 'about':
+            videoId = 'N4vmPq09dN4?si=eyzXwmLVzzDp4Ayt';
+            projectContent = `
+                            <div class="about-title-bg">
+                                <h2 class="project-title">About me</h2>
+                            </div>
+                         
+
+                            <div class="description-bg">
+                                <div class="project-description">
+                                    <p>
+                                        I'm Murilo Glasser, a Generalist Game Programmer with five years of experience in the gaming industry. I've worked on various platforms, including VR, AR, mobile, web, consoles like Nintendo Switch, PlayStation, Xbox, and Steam. My academic background at Centro Universitário (FACENS) and São Paulo Technical School (ETEC) equipped me with solid skills in digital technology, programming, agile methodologies, and software development.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="project-links">
+                                <h2>Stack</h2>
+                                <a target="_blank" class="stack-icon" style="margin-left: 6px">
+                                    <img src="Images/unity.png" alt="Github">
+                                </a>
+
+                                <a target="_blank" class="stack-icon" style="margin-left: 6px">
+                                    <img src="Images/csharp.png" alt="Github">
+                                </a>                             
+
+                                <a target="_blank" class="stack-icon" style="margin-left: 6px">
+                                    <img src="Images/c.png" alt="Github">
+                                </a>
+
+                                <a target="_blank" class="stack-icon" style="margin-left: 6px">
+                                    <img src="Images/javascript.png" alt="Github">
+                                </a>
+
+                                <a target="_blank" class="stack-icon" style="margin-left: 6px">
+                                    <img src="Images/html5.png" alt="Github">
+                                </a>
+
+                                <a target="_blank" class="stack-icon" style="margin-left: 6px">
+                                    <img src="Images/construct3.png" alt="Github">
+                                </a>
+                            </div>
+
+                            <div class="close">
+                                <span onclick="closeModalAbout()" target="_blank" class="social-icon quit">&times;</span>
+                            </div>
+`                   ;
+            break;
+        case 'contact':
+            videoId = 'N4vmPq09dN4?si=eyzXwmLVzzDp4Ayt';
+            projectContent = `
+                            <div class="about-title-bg">
+                                <h2 class="project-title">Contact</h2>
+                            </div>
+                         
+
+                            <div class="description-bg">
+                                <div class="project-description">
+                                    <p>
+                                        I'm Murilo Glasser, a Generalist Game Programmer with five years of experience in the gaming industry. I've worked on various platforms, including VR, AR, mobile, web, consoles like Nintendo Switch, PlayStation, Xbox, and Steam. My academic background at Centro Universitário (FACENS) and São Paulo Technical School (ETEC) equipped me with solid skills in digital technology, programming, agile methodologies, and software development.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="project-links">
+                                <h2>Stack</h2>
+                               
+                            </div>
+
+                            <div class="close">
+                                <span onclick="closeModalContact()" target="_blank" class="social-icon quit">&times;</span>
+                            </div>
+`                   ;
+            break;
         case 'project1':
             videoId = 'N4vmPq09dN4?si=eyzXwmLVzzDp4Ayt';
             projectContent = `
@@ -456,11 +593,3 @@ function getProjectContent(projectId) {
     return projectContent;
 }
 
-
-/* <a href="https://www.xbox.com/pt-BR/games/store/cobra-kai-2-dojos-rising/9NP4WZNSN0NN" target="_blank" class="social-icon device" style="margin-left: 6px">
-                                  <img src="Images/Xbox.png" alt="Github">
-                              </a>
-
-                              <a href="https://www.nintendo.com/pt-br/store/products/cobra-kai-2-dojos-rising-switch/" target="_blank" class="social-icon device" style="margin-left: 6px">
-                                  <img src="Images/Nintendo.png" alt="Github">
-                              </a>*/

@@ -22,6 +22,16 @@
     transform: scale(1.2);
 }
 
+.stack-icon:hover {
+    transform: scale(1.2);
+}
+
+/* Styling for contact icons */
+.stack-icon {
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+}
+
 /* Styling for contact icons */
 .contact-icon {
     display: inline-block;
