@@ -2,7 +2,6 @@ var lastModal;
 
 function changeClass(modalType) {
     document.getElementById("modal-c").className = modalType;
-
   
 }
 
@@ -166,27 +165,27 @@ function getProjectContent(projectId) {
                             <div class="project-links">
                                 <h2>Stack</h2>
                                 <a target="_blank" class="stack-icon" style="margin-left: 6px">
-                                    <img src="Images/unity.png" alt="Github">
+                                    <img src="Images/unity.png">
                                 </a>
 
                                 <a target="_blank" class="stack-icon" style="margin-left: 6px">
-                                    <img src="Images/csharp.png" alt="Github">
+                                    <img src="Images/csharp.png">
                                 </a>                             
 
                                 <a target="_blank" class="stack-icon" style="margin-left: 6px">
-                                    <img src="Images/c.png" alt="Github">
+                                    <img src="Images/c.png">
                                 </a>
 
                                 <a target="_blank" class="stack-icon" style="margin-left: 6px">
-                                    <img src="Images/javascript.png" alt="Github">
+                                    <img src="Images/javascript.png">
                                 </a>
 
                                 <a target="_blank" class="stack-icon" style="margin-left: 6px">
-                                    <img src="Images/html5.png" alt="Github">
+                                    <img src="Images/html5.png">
                                 </a>
 
                                 <a target="_blank" class="stack-icon" style="margin-left: 6px">
-                                    <img src="Images/construct3.png" alt="Github">
+                                    <img src="Images/construct3.png">
                                 </a>
                             </div>
 
