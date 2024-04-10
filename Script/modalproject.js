@@ -173,7 +173,7 @@ function getProjectContent(projectId) {
                                 </a>                             
 
                                 <a target="_blank" class="stack-icon" style="margin-left: 6px">
-                                    <img src="Images/c.png">
+                                    <img src="Images/clanguage.png">
                                 </a>
 
                                 <a target="_blank" class="stack-icon" style="margin-left: 6px">
@@ -181,7 +181,7 @@ function getProjectContent(projectId) {
                                 </a>
 
                                 <a target="_blank" class="stack-icon" style="margin-left: 6px">
-                                    <img src="Images/html5.png">
+                                    <img src="Images/htmllanguage.png">
                                 </a>
 
                                 <a target="_blank" class="stack-icon" style="margin-left: 6px">
