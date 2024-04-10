@@ -72,6 +72,10 @@
         max-width: 40px; /* Define a largura máxima dos ícones */
         height: auto;
     }
+
+    .stack-icon {
+        margin: 0px; /* Espaçamento entre os ícones */
+    }
 }
 
 /* Responsiveness for smaller screens */
