@@ -1,5 +1,4 @@
 
-
 /* Header background styling */
 .contact-title-bg {
     width: auto;
@@ -36,6 +35,47 @@
     box-shadow: 0 8px 33px rgba(255, 255, 255, 0.3);
 }
 
+.contact-close {
+    border: 3px solid #ffffff;
+    border-radius: 39px;
+    width: 100%;
+    background-color: #a0a0a0;
+    background-color: rgba(0, 0, 0, 1);
+    color: #ffffff;
+    font-size: 50px;
+    cursor: pointer;
+    margin-top: 0px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    margin-bottom: 50px;
+    box-shadow: 0 8px 33px rgba(255, 255, 255, 0.3);
+}
+
+
+.contact-description-bg {
+    border: 3px solid #ffffff;
+    width: 100%;
+    margin: 10px 0;
+    margin-bottom: -2px;
+    margin-top: -19px;
+    padding-top: 25px;
+    padding-bottom: 1px;
+    background-color: rgba(0, 0, 0, 1);
+    box-shadow: 0 8px 33px rgba(255, 255, 255, 0.3);
+}
+
+.phone-description-bg {
+    border: 3px solid #ffffff;
+    width: 100%;
+    margin: 10px 0;
+    margin-bottom: -2px;
+    margin-top: 0px;
+    padding-top: 25px;
+    padding-bottom: 1px;
+    background-color: rgba(0, 0, 0, 1);
+    box-shadow: 0 8px 33px rgba(255, 255, 255, 0.3);
+}
+
 /* Responsiveness for smaller screens */
 @media (max-width: 678px) {
 
@@ -48,7 +88,7 @@
         margin-bottom: 15px;
     }
 
-    .contact-modal-content {
+       .contact-modal-content {
         padding-top: 15px;
         padding-bottom: 15px;
         border-radius: 25px;
@@ -56,6 +96,10 @@
         max-height: 90%;
         text-align: center;
         padding: 1000px;
+    }
+
+    .contact-close {
+        margin-bottom: 6px;
     }
 }
 
@@ -70,15 +114,19 @@
         margin-top: 3px;
         margin-bottom: 15px;
     }
-
+    
     .contact-modal-content {
         padding-top: 15px;
         padding-bottom: 15px;
         border-radius: 25px;
-        width: 70%;
+        width: 50%;
         max-height: 90%;
         text-align: center;
         padding: 1000px;
+    }
+
+    .contact-close {
+        margin-bottom: 6px;
     }
 }
 
@@ -98,9 +146,13 @@
         padding-top: 15px;
         padding-bottom: 15px;
         border-radius: 25px;
-        width: 35%;
+        width: 25%;
         max-height: 90%;
         text-align: center;
         padding: 1000px;
+    }
+
+    .contact-close {
+        margin-bottom: 6px;
     }
 }

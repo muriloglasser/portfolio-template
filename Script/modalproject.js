@@ -3,7 +3,6 @@ var lastModal;
 function changeClass(modalType) {
     document.getElementById("modal-c").className = modalType;
 
-  
 }
 
 function openModal(projectId) {
@@ -40,7 +39,7 @@ function openModalAbout(projectId) {
     window.addEventListener('click', outsideClickAbout);
 }
 
-function openModalContac(projectId) {
+function openModalContact(projectId) {
     changeClass('contact-modal-content');
     var modal = document.getElementById("myModal");
     var modalContent = document.getElementById("modalContent");
@@ -203,20 +202,25 @@ function getProjectContent(projectId) {
                             </div>
                          
 
-                            <div class="description-bg">
-                                <div class="project-description">
+                            <div class="contact-description-bg">
+                                <div class="contact-description">
+                                    <h2>Email</h2>
                                     <p>
-                                        I'm Murilo Glasser, a Generalist Game Programmer with five years of experience in the gaming industry. I've worked on various platforms, including VR, AR, mobile, web, consoles like Nintendo Switch, PlayStation, Xbox, and Steam. My academic background at Centro Universitário (FACENS) and São Paulo Technical School (ETEC) equipped me with solid skills in digital technology, programming, agile methodologies, and software development.
+                                        murilo.glasser@hotmail.com
                                     </p>
                                 </div>
                             </div>
 
-                            <div class="project-links">
-                                <h2>Stack</h2>
-                               
+                            <div class="phone-description-bg">
+                                <div class="contact-description">
+                                    <h2>Phone</h2>
+                                    <p>
+                                        +5515996003474
+                                    </p>
+                                </div>
                             </div>
 
-                            <div class="close">
+                            <div class="contact-close">
                                 <span onclick="closeModalContact()" target="_blank" class="social-icon quit">&times;</span>
                             </div>
 `                   ;

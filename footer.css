@@ -13,7 +13,7 @@ footer {
 
     .contact-info p {
         margin: 10px 0;
-        font-size: 16px;
+        font-size: 1px;
     }
 
 /* Styling for contact icon images */
@@ -24,9 +24,9 @@ footer {
 
 /* Footer Container Background */
 .footer-container {
+    text-align:center;
     background-image: url('Images/Header5.jpg');
     background-repeat: repeat;
     background-size: 400px;
-
-    padding-bottom:160px;
+    padding-bottom:30px;
 }
