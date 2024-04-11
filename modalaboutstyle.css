@@ -16,10 +16,14 @@
     box-shadow: 0 8px 33px rgba(255, 255, 255, 0.3);
 }
 
+.stack-icon {
+    margin: 2px; /* Espaçamento entre os ícones */
+}
+
 .stack-icon img {
-    margin-top: -10px;
-    width: 42px;
-    height: 42px;
+    width: 100%; /* Faz com que os ícones ocupem toda a largura disponível */
+    max-width: 50px; /* Define a largura máxima dos ícones */
+    height: auto;
 }
 
 .about-modal-content {
@@ -72,6 +76,16 @@
         max-height: 90%;
         text-align: center;
         padding: 1000px;
+    }
+
+    .stack-icon img {
+        width: 100%; /* Faz com que os ícones ocupem toda a largura disponível */
+        max-width: 40px; /* Define a largura máxima dos ícones */
+        height: auto;
+    }
+
+    .stack-icon {
+        margin: 0px; /* Espaçamento entre os ícones */
     }
 }
 
