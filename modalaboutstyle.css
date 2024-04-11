@@ -133,4 +133,14 @@
         text-align: center;
         padding: 1000px;
     }
+
+    .stack-icon img {
+        width: 100%; /* Faz com que os ícones ocupem toda a largura disponível */
+        max-width: 43px; /* Define a largura máxima dos ícones */
+        height: auto;
+    }
+
+    .stack-icon {
+        margin: 0px; /* Espaçamento entre os ícones */
+    }
 }
