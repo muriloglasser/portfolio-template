@@ -194,7 +194,40 @@
         padding-top: 15px;
         padding-bottom: 15px;
         border-radius: 25px;
-        width: 35%;
+        width: 32%;
+        max-height: 90%;
+        text-align: center;
+        padding: 1000px;
+    }
+
+    .stack-icon img {
+        width: 100%; /* Faz com que os ícones ocupem toda a largura disponível */
+        max-width: 43px; /* Define a largura máxima dos ícones */
+        height: auto;
+    }
+
+    .stack-icon {
+        margin: 0px; /* Espaçamento entre os ícones */
+    }
+}
+
+/* Responsiveness for medium screens */
+@media (min-width: 1724px) {
+
+    .about-title-bg {
+        border-radius: 19px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        margin-right: -4.5px; /* Ajuste a quantidade de pixels conforme necessário */
+        margin-top: 3px;
+        margin-bottom: 15px;
+    }
+
+    .about-modal-content {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-radius: 25px;
+        width: 19%;
         max-height: 90%;
         text-align: center;
         padding: 1000px;
