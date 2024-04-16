@@ -59,6 +59,14 @@
     max-width: 100%;
 }
 
+.project-video-BG {
+    max-width: 100%;
+    max-height: 100%;
+    background-color: black;
+    padding-top:50px;
+    margin-top:-50px;
+}
+
     /* Make YouTube videos responsive */
 .project-video iframe {
         margin-bottom: 13px;
@@ -222,6 +230,44 @@
         padding-bottom: 15px;
         border-radius: 25px;
         width: 40%;
+        max-height: 90%;
+        text-align: center;
+        padding: 1000px;
+    }
+
+    .project-video iframe {
+        margin-right: -4.5px; /* Ajuste a quantidade de pixels conforme necessário */
+        margin-top: -50px;
+        width: 100%;
+        max-height: 70vh;
+    }
+
+    .project-description {
+        margin-top: -41px;
+    }
+}
+
+/* Responsiveness for medium screens */
+@media (min-width: 1424px) {
+
+
+    .title-bg {
+        border-radius: 19px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        margin-right: -4.5px; /* Ajuste a quantidade de pixels conforme necessário */
+        margin-top: 3px;
+    }
+
+    .close {
+        margin-bottom: 6px;
+    }
+
+    .modal-content {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-radius: 25px;
+        width: 30%;
         max-height: 90%;
         text-align: center;
         padding: 1000px;

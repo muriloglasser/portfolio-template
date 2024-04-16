@@ -2,7 +2,11 @@ var lastModal;
 
 function changeClass(modalType) {
     document.getElementById("modal-c").className = modalType;
+    document.body.classList.add("body-opened");
+}
 
+function returnBody(modalType) {
+    document.body.classList.remove("body-opened");
 }
 
 function openModal(projectId) {
@@ -59,6 +63,7 @@ function openModalContact(projectId) {
 function closeModal() {
     var modal = document.getElementById("myModal");
     var youtubeVideo = document.getElementById("youtubeVideo");
+    returnBody();
 
     youtubeVideo.src = "";
     window.removeEventListener('click', outsideClick);
@@ -79,6 +84,7 @@ function closeModal() {
 
 function closeModalAbout() {
     var modal = document.getElementById("myModal");
+    returnBody();
 
     window.removeEventListener('click', outsideClickAbout);
     modal.classList.remove('slide-in-up');
@@ -98,6 +104,7 @@ function closeModalAbout() {
 
 function closeModalContact() {
     var modal = document.getElementById("myModal");
+    returnBody();
 
     window.removeEventListener('click', outsideClickContact);
     modal.classList.remove('slide-in-up');
@@ -232,8 +239,10 @@ function getProjectContent(projectId) {
                                 <h2 class="project-title">Cobra Kai 2</h2>
                             </div>
 
+                            <div class="project-video-BG">
                             <div class="project-video">
                                 <iframe id="youtubeVideo" width="560" height="315" src="https://www.youtube.com/embed/${videoId}" frameborder="0" allowfullscreen></iframe>
+                            </div>
                             </div>
 
                             <div class="description-bg">
@@ -274,8 +283,10 @@ function getProjectContent(projectId) {
                                 <h2 class="project-title">Mega Button Soccer</h2>
                             </div>
 
+                            <div class="project-video-BG">
                             <div class="project-video">
                                 <iframe id="youtubeVideo" width="560" height="315" src="https://www.youtube.com/embed/${videoId}" frameborder="0" allowfullscreen></iframe>
+                            </div>
                             </div>
 
                             <div class="description-bg">
@@ -305,8 +316,10 @@ function getProjectContent(projectId) {
                                 <h2 class="project-title">Food Boy</h2>
                             </div>
 
+                            <div class="project-video-BG">
                             <div class="project-video">
                                 <iframe id="youtubeVideo" width="560" height="315" src="https://www.youtube.com/embed/${videoId}" frameborder="0" allowfullscreen></iframe>
+                            </div>
                             </div>
 
                             <div class="description-bg">
@@ -342,8 +355,10 @@ function getProjectContent(projectId) {
                                 <h2 class="project-title">Joy & Toy</h2>
                             </div>
 
+                            <div class="project-video-BG">
                             <div class="project-video">
                                 <iframe id="youtubeVideo" width="560" height="315" src="https://www.youtube.com/embed/${videoId}" frameborder="0" allowfullscreen></iframe>
+                            </div>
                             </div>
 
                             <div class="description-bg">
@@ -376,8 +391,10 @@ function getProjectContent(projectId) {
                                 <h2 class="project-title">Hot Potato</h2>
                             </div>
 
+                            <div class="project-video-BG">
                             <div class="project-video">
                                 <iframe id="youtubeVideo" width="560" height="315" src="https://www.youtube.com/embed/${videoId}" frameborder="0" allowfullscreen></iframe>
+                            </div>
                             </div>
 
                             <div class="description-bg">
@@ -403,8 +420,10 @@ function getProjectContent(projectId) {
                                 <h2 class="project-title">Trader's Life</h2>
                             </div>
 
+                            <div class="project-video-BG">
                             <div class="project-video">
                                 <iframe id="youtubeVideo" width="560" height="315" src="https://www.youtube.com/embed/${videoId}" frameborder="0" allowfullscreen></iframe>
+                            </div>
                             </div>
 
                             <div class="description-bg">
@@ -436,8 +455,10 @@ function getProjectContent(projectId) {
                                 <h2 class="project-title">Anitta Boss Game</h2>
                             </div>
 
+                            <div class="project-video-BG">
                             <div class="project-video">
                                 <iframe id="youtubeVideo" width="560" height="315" src="https://www.youtube.com/embed/${videoId}" frameborder="0" allowfullscreen></iframe>
+                            </div>
                             </div>
 
                             <div class="description-bg">
@@ -463,8 +484,10 @@ function getProjectContent(projectId) {
                                 <h2 class="project-title">Free Fighter</h2>
                             </div>
 
+                            <div class="project-video-BG">
                             <div class="project-video">
                                 <iframe id="youtubeVideo" width="560" height="315" src="https://www.youtube.com/embed/${videoId}" frameborder="0" allowfullscreen></iframe>
+                            </div>
                             </div>
 
                             <div class="description-bg">
@@ -490,8 +513,10 @@ function getProjectContent(projectId) {
                                 <h2 class="project-title">Cash Plane</h2>
                             </div>
 
+                            <div class="project-video-BG">
                             <div class="project-video">
                                 <iframe id="youtubeVideo" width="560" height="315" src="https://www.youtube.com/embed/${videoId}" frameborder="0" allowfullscreen></iframe>
+                            </div>
                             </div>
 
                             <div class="description-bg">
@@ -517,8 +542,10 @@ function getProjectContent(projectId) {
                                 <h2 class="project-title">Shofu Ar Experience</h2>
                             </div>
 
+                            <div class="project-video-BG">
                             <div class="project-video">
                                 <iframe id="youtubeVideo" width="560" height="315" src="https://www.youtube.com/embed/${videoId}" frameborder="0" allowfullscreen></iframe>
+                            </div>
                             </div>
 
                             <div class="description-bg">
@@ -544,8 +571,10 @@ function getProjectContent(projectId) {
                                 <h2 class="project-title">Lego Ar Experience</h2>
                             </div>
 
+                            <div class="project-video-BG">
                             <div class="project-video">
                                 <iframe id="youtubeVideo" width="560" height="315" src="https://www.youtube.com/embed/${videoId}" frameborder="0" allowfullscreen></iframe>
+                            </div>
                             </div>
 
                             <div class="description-bg">
@@ -571,8 +600,10 @@ function getProjectContent(projectId) {
                                 <h2 class="project-title">Merge Cube</h2>
                             </div>
 
+                            <div class="project-video-BG">
                             <div class="project-video">
                                 <iframe id="youtubeVideo" width="560" height="315" src="https://www.youtube.com/embed/${videoId}" frameborder="0" allowfullscreen></iframe>
+                            </div>
                             </div>
 
                             <div class="description-bg">
