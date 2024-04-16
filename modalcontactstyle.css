@@ -76,6 +76,21 @@
     box-shadow: 0 8px 33px rgba(255, 255, 255, 0.3);
 }
 
+.contact-text {
+    font-size:13px;
+}
+
+.contact-icon {
+    margin: 2px; /* Espaçamento entre os ícones */
+    padding-top:18px;
+}
+
+    .contact-icon img {
+        width: 100%; /* Faz com que os ícones ocupem toda a largura disponível */
+        max-width: 47px; /* Define a largura máxima dos ícones */
+        height: auto;
+    }
+
 /* Responsiveness for smaller screens */
 @media (max-width: 678px) {
 
@@ -124,7 +139,7 @@
         text-align: center;
         padding: 1000px;
     }
-
+ 
     .contact-close {
         margin-bottom: 6px;
     }

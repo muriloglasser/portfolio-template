@@ -211,19 +211,31 @@ function getProjectContent(projectId) {
 
                             <div class="contact-description-bg">
                                 <div class="contact-description">
-                                    <h2>Email</h2>
+
+                                    <a target="_blank" class="contact-icon" style="margin-left: 6px">
+                                        <img src="Images/email.png">
+                                    </a>
+
+                                    <div class="contact-text">
                                     <p>
                                         murilo.glasser@hotmail.com
                                     </p>
+                                    </div>
                                 </div>
                             </div>
 
                             <div class="phone-description-bg">
                                 <div class="contact-description">
-                                    <h2>Phone</h2>
+
+                                    <a target="_blank" class="contact-icon" style="margin-left: 6px">
+                                        <img src="Images/phone.png">
+                                    </a>
+
+                                    <div class="contact-text">
                                     <p>
                                         +5515996003474
                                     </p>
+                                    </div>
                                 </div>
                             </div>
 
