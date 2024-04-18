@@ -204,7 +204,7 @@ function getProjectContent(projectId) {
         case 'contact':
             videoId = 'N4vmPq09dN4?si=eyzXwmLVzzDp4Ayt';
             projectContent = `
-                            <div class="about-title-bg">
+                            <div class="contact-title-bg">
                                 <h2 class="project-title">Contact</h2>
                             </div>
                          

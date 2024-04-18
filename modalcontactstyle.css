@@ -6,7 +6,7 @@
     margin-bottom: 42px;
     margin-top: 35px;
     background-color: #a0a0a0;
-    line-height: 1;
+    line-height: 0.5;
     background-color: rgba(0, 0, 0, 1);
     border: 3px solid #ffffff;
     border-radius: 29px;
@@ -87,7 +87,7 @@
 
     .contact-icon img {
         width: 100%; /* Faz com que os ícones ocupem toda a largura disponível */
-        max-width: 47px; /* Define a largura máxima dos ícones */
+        max-width: 43px; /* Define a largura máxima dos ícones */
         height: auto;
     }
 
@@ -107,7 +107,7 @@
         padding-top: 15px;
         padding-bottom: 15px;
         border-radius: 25px;
-        width: 60%;
+        width: 50%;
         max-height: 90%;
         text-align: center;
         padding: 1000px;
@@ -134,7 +134,7 @@
         padding-top: 15px;
         padding-bottom: 15px;
         border-radius: 25px;
-        width: 30%;
+        width: 40%;
         max-height: 90%;
         text-align: center;
         padding: 1000px;
@@ -148,7 +148,7 @@
 
 
 /* Responsiveness for medium screens */
-@media (min-width: 1023px) {
+@media (min-width: 923px) {
 
     .contact-title-bg {
         border-radius: 19px;
@@ -246,15 +246,52 @@
         padding-top: 15px;
         padding-bottom: 15px;
         border-radius: 25px;
-        width: 15%;
+        width: 12%;
         max-height: 90%;
         text-align: center;
-        padding: 1000px;
+        padding: 3000px;
     }
 
     .contact-close {
         margin-bottom: 6px;
     }
+
+    .contact-text {
+        font-size: 13px;
+    }
+
 }
 
+
+
+/* Responsiveness for medium screens */
+@media (min-width: 2025px) {
+
+    .contact-title-bg {
+        border-radius: 19px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        margin-right: -4.5px; /* Ajuste a quantidade de pixels conforme necessário */
+        margin-top: 3px;
+        margin-bottom: 15px;
+    }
+
+    .contact-modal-content {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-radius: 25px;
+        width: 12%;
+        max-height: 90%;
+        text-align: center;
+        padding: 3000px;
+    }
+
+    .contact-close {
+        margin-bottom: 6px;
+    }
+
+    .contact-text {
+        font-size: 13px;
+    }
+}
 

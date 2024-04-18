@@ -76,6 +76,20 @@ body {
     margin-top: -10px;
 }
 
+@media only screen and (min-width: 2000px) {
+   
+
+    /* Project Section Styles */
+    section {
+        background-color: #3F1F51;
+        padding: 105px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-bottom: 90px;
+        padding-top: 33px;
+    }
+}
 /* Responsive Design */
 @media only screen and (max-width: 1200px) {
     .project {
