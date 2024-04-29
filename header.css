@@ -1,6 +1,7 @@
 /* Reset some default styles */
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bangers&family=Bungee&family=Geologica:wght@100..900&family=Honk&family=Indie+Flower&family=Jersey+20&family=Koulen&family=Mitr:wght@200;300;400;500;600;700&family=Orbitron:wght@400..900&family=Patrick+Hand&family=Patua+One&family=Permanent+Marker&family=Poiret+One&family=Protest+Riot&family=Protest+Strike&family=Righteous&family=Rowdies:wght@300;400;700&family=Silkscreen:wght@400;700&family=Sixtyfour&family=Sriracha&family=Viga&display=swap');
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Viga", sans-serif;
     margin: 0;
     padding: 0;
     background-color: #474056;
