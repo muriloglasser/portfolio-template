@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="projectstyle.css">
     <link rel="stylesheet" href="footer.css">
-    <link rel="stylesheet" href="modalstyle.css">
+    <link rel="stylesheet" href="modalprojectstyle.css">
     <link rel="stylesheet" href="modalaboutstyle.css">
     <link rel="stylesheet" href="modalcontactstyle.css">
     <link rel="stylesheet" href="hover.css">
@@ -25,39 +25,44 @@
     <script src="Script/overlay.js"></script>
     <script src="Script/modalproject.js"></script>
     <script src="Script/project.js"></script>
-
+    <script src="Script/paralax.js"></script>
 
     <!-- Initial overlay -->
     <div id="overlay">
 
         <!-- Header -->
-        <header class="header-container">
-            <div class="header-image-container" ontouchstart="changeHeaderImage('Images/Profile.png')" ontouchend="returnHeaderImage('Images/Profile2.png')">
-                <img class="header-image" id="header-image" src="Images/Profile2.png" alt="Your Photo" onmouseover="changeHeaderImage('Images/Profile.png')" onmouseout="returnHeaderImage('Images/Profile2.png')">
-            </div>
-            <h1 style="font-size: 25px; margin-top: 6px">Murilo Glasser</h1>
-            <p style="font-size: 19px; margin-top: -10px">Game Developer</p>
+        <header class="parallax">
+            <div class="header-bg">
 
-            <div class="social-icons">
-                <a href="https://www.linkedin.com/in/murilo-glasser-718924207/" target="_blank" class="social-icon linkedin">
-                    <img src="Images/Linkedin.png" alt="LinkedIn">
-                </a>
-                <a href="https://github.com/muriloglasser" target="_blank" class="social-icon github" style="margin-left: 6px">
-                    <img src="Images/Git.png" alt="Github">
-                </a>
-                <a href="https://drive.google.com/file/d/1AFzeGMNF4_L9Id-kR-lMRKRi4pIKtIeK/view?usp=sharing"
-                   target="_blank" class="social-icon cv" style="margin-left: 6px">
-                    <img src="Images/CV.png" alt="CV">
-                </a>
-            </div>
+                <!-- Profile Image -->
+                <div class="header-image-container" ontouchstart="changeHeaderImage('Images/Profile.png')" ontouchend="returnHeaderImage('Images/Profile2.png')">
+                    <img class="header-image" id="header-image" src="Images/Profile2.png" alt="Your Photo" onmouseover="changeHeaderImage('Images/Profile.png')" onmouseout="returnHeaderImage('Images/Profile2.png')">
+                </div>
+                <h1 style="font-size: 25px; margin-top: 6px">Murilo Glasser</h1>
+                <p style="font-size: 19px; margin-top: -10px">Game Developer</p>
 
-            <!-- Nav Bar -->
-            <div class="nav-container">
-                <nav>
-                    <a href="#about-me" onclick="openModalAbout('about')">ABOUT ME</a>
-                    <a href="#projects">PROJECTS</a>
-                    <a href="#contact" onclick="openModalContact('contact')">CONTACT</a>
-                </nav>
+                <!-- Social Icons -->
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/murilo-glasser-718924207/" target="_blank" class="social-icon linkedin">
+                        <img src="Images/Linkedin.png" alt="LinkedIn">
+                    </a>
+                    <a href="https://github.com/muriloglasser" target="_blank" class="social-icon github" style="margin-left: 6px">
+                        <img src="Images/Git.png" alt="Github">
+                    </a>
+                    <a href="https://drive.google.com/file/d/1AFzeGMNF4_L9Id-kR-lMRKRi4pIKtIeK/view?usp=sharing"
+                       target="_blank" class="social-icon cv" style="margin-left: 6px">
+                        <img src="Images/CV.png" alt="CV">
+                    </a>
+                </div>
+
+                <!-- Nav Bar -->
+                <div class="nav-container">
+                    <nav>
+                        <a href="#about-me" onclick="openModalAbout('about')">ABOUT ME</a>
+                        <a href="#projects">PROJECTS</a>
+                        <a href="#contact" onclick="openModalContact('contact')">CONTACT</a>
+                    </nav>
+                </div>
             </div>
         </header>
 
@@ -74,7 +79,8 @@
                     <p>
                         <span class="tag">UNITY</span>
                         <span class="tag">C#</span>
-                        <span class="tag">CONSOLE</span>
+                        <!--                        <span class="tag">CONSOLE</span>
+                        -->
                         <span class="tag">3D</span>
                     </p>
                     <p style="font-size:18px">
@@ -97,7 +103,8 @@
                     <p>
                         <span class="tag">UNITY</span>
                         <span class="tag">C#</span>
-                        <span class="tag">MOBILE</span>
+                        <!--                        <span class="tag">MOBILE</span>
+                        -->
                         <span class="tag">2D</span>
                     </p>
                     <p style="font-size:18px">
@@ -120,7 +127,8 @@
                     <p>
                         <span class="tag">UNITY</span>
                         <span class="tag">C#</span>
-                        <span class="tag">DESKTOP</span>
+                        <!--                        <span class="tag">DESKTOP</span>
+                        -->
                         <span class="tag">3D</span>
                     </p>
                     <p style="font-size:18px">
@@ -144,7 +152,8 @@
                     <p>
                         <span class="tag">UNITY</span>
                         <span class="tag">C#</span>
-                        <span class="tag">CONSOLE</span>
+                        <!--                        <span class="tag">CONSOLE</span>
+                        -->
                         <span class="tag">3D</span>
                     </p>
                     <p style="font-size:18px">
@@ -157,7 +166,7 @@
                         <li><strong>Artistic implementation</strong></li>
                         <li><strong>Game Design</strong></li>
                         <!--<li><strong>Level Design</strong></li>
-                <li><strong>VFX</strong></li>-->
+                        <li><strong>VFX</strong></li>-->
                     </div>
                 </div>
             </div>
@@ -170,7 +179,8 @@
                         <span class="tag">UNITY</span>
                         <span class="tag">C#</span>
                         <span class="tag">C</span>
-                        <span class="tag">DESKTOP</span>
+                        <!--                        <span class="tag">DESKTOP</span>
+                        -->
                         <span class="tag">3D</span>
                     </p>
                     <p style="font-size:18px">
@@ -195,7 +205,8 @@
                         <span class="tag">UNITY</span>
                         <span class="tag">C#</span>
                         <span class="tag">AR</span>
-                        <span class="tag">MOBILE</span>
+                        <!--                        <span class="tag">MOBILE</span>
+                        -->
                         <span class="tag">3D</span>
                     </p>
                     <p style="font-size:18px">
@@ -218,7 +229,8 @@
                     <p>
                         <span class="tag">UNITY</span>
                         <span class="tag">C#</span>
-                        <span class="tag">WEBGL</span>
+                        <!--                        <span class="tag">WEBGL</span>
+                        -->
                         <span class="tag">2D</span>
                     </p>
                     <p style="font-size:18px">
@@ -242,7 +254,8 @@
                         <span class="tag">UNITY</span>
                         <span class="tag">C#</span>
                         <span class="tag">VR</span>
-                        <span class="tag">MOBILE</span>
+                        <!--                        <span class="tag">MOBILE</span>
+                        -->
                         <span class="tag">3D</span>
                     </p>
                     <p style="font-size:18px">
@@ -265,7 +278,8 @@
                     <p>
                         <span class="tag">UNITY</span>
                         <span class="tag">C#</span>
-                        <span class="tag">MOBILE</span>
+                        <!--                        <span class="tag">MOBILE</span>
+                        -->
                         <span class="tag">3D</span>
                     </p>
                     <p style="font-size:18px">
@@ -289,7 +303,8 @@
                         <span class="tag">UNITY</span>
                         <span class="tag">C#</span>
                         <span class="tag">AR</span>
-                        <span class="tag">MOBILE</span>
+                        <!--                        <span class="tag">MOBILE</span>
+                        -->
                         <span class="tag">3D</span>
                     </p>
                     <p style="font-size:18px">
@@ -312,7 +327,8 @@
                     <p>
                         <span class="tag">UNITY</span>
                         <span class="tag">C#</span>
-                        <span class="tag">WEBGL</span>
+                        <!--                        <span class="tag">WEBGL</span>
+                        -->
                         <span class="tag">2D</span>
                     </p>
                     <p style="font-size:18px">
@@ -336,7 +352,8 @@
                         <span class="tag">UNITY</span>
                         <span class="tag">C#</span>
                         <span class="tag">AR</span>
-                        <span class="tag">MOBILE</span>
+                        <!--                        <span class="tag">MOBILE</span>
+                        -->
                         <span class="tag">3D</span>
                     </p>
                     <p style="font-size:18px">

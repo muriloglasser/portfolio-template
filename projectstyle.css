@@ -68,11 +68,11 @@ body {
 .tag {
     font-size: 14px;
     display: inline-block;
-    padding: 10px 10px;
-    margin: 0px 0px;
+    padding: 8px 10px;
+    margin: 10px 0px;
     background-color: var(--tag-background-color);
     color: #ffffff;
-    border-radius: 20px;
+    border-radius: 13px;
 }
 
 .project-content .tag {

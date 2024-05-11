@@ -1,8 +1,6 @@
 .nav-container {
-    /*margin-right: -40px;
-    margin-left: -40px;*/
     margin-top: 20px;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 nav {
