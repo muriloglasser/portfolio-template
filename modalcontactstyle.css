@@ -24,15 +24,16 @@
     transform: translate(-50%, -50%);
     border-radius: 13px;
     border: 2px solid rgba(255, 255, 255, 0.9);
-    background-image: url('Images/Header4.jpg');
+    /*   background-image: url('Images/Header4.jpg');
     background-repeat: repeat;
-    background-size: 550px;
+    background-size: 550px;*/
     overflow-y: auto;
     padding-top: 2px;
     padding-right: 20px;
     padding-left: 19px;
     padding: 1000px;
     box-shadow: 0 8px 33px rgba(255, 255, 255, 0.3);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .contact-close {

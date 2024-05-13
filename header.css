@@ -57,12 +57,23 @@ header {
     }
 
 .parallax {
-    background-image: url('Images/Header4.gif');
+    background-image: url('Images/Header5.gif');
     background-attachment: fixed;
-    background-position: center;
+    /*background-position: center;*/
     background-repeat: no-repeat;
     background-size: cover;
-    overflow: hidden;
-    perspective: 1px; /* Cria perspectiva para o efeito */
+    /*overflow: hidden;*/
+    /*perspective: 1px;*/ /* Cria perspectiva para o efeito */
+}
+
+
+@media only screen and (min-width: 2400px) {
+
+    .header-image {
+        margin-top: 100px;
+        width: 220px;
+        height: auto;
+    }
+  
 }
 
