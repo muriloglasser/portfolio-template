@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
     window.addEventListener('scroll', function () {
         parallaxSections.forEach(function (section) {
             let yScrollPosition = window.pageYOffset;
-            section.style.backgroundPositionY = -yScrollPosition * 0.1 + 'px'; // Ajuste o fator conforme necessário
+            section.style.backgroundPositionY = -yScrollPosition * 0.2 + 'px'; // Ajuste o fator conforme necessário
         });
     });
 });
