@@ -21,14 +21,18 @@
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 13px;
-    border: 2px solid rgba(255, 255, 255, 0.9);   
+    border: 2px solid rgba(255, 255, 255, 0.9);
     overflow-y: auto;
     padding-top: 2px;
     padding-right: 20px;
     padding-left: 19px;
     padding: 1000px;
     box-shadow: 0 8px 33px rgba(255, 255, 255, 0.3);
-    background-color: rgba(0, 0, 0, 0.85);
+    background-color: rgba(63, 31, 81, 0.4);
+    background-image: url('Images/always-grey.png');
+    background-repeat: repeat;
+    background-size: 45px;
+    background-position: center;
 }
 
 /* Header background styling */
