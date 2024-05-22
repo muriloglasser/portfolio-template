@@ -169,7 +169,7 @@ function getProjectContent(projectId) {
                                 </div>
                             </div>
 
-                            <div class="project-links">
+                            <div class="project-stack">
                                 <h2>Stack</h2>
                                 <a target="_blank" class="stack-icon" style="margin-left: 6px">
                                     <img src="Images/unity.png">

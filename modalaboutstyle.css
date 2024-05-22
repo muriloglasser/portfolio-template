@@ -15,9 +15,23 @@
     border-bottom-right-radius: 0;
     box-shadow: 0 8px 33px rgba(255, 255, 255, 0.3);
 }
+.project-stack {
+    font-size: 16px;
+    border: 3px solid #ffffff;
+    width: 100%;
+    margin: 10px 0;
+    margin-top: -0px;
+    margin-bottom: 35px;
+    background-color: rgba(0,0,0,0.3);
+    color: #ffffff;
+    padding-top: -25px;
+    padding-bottom: 24px;
+    box-shadow: 0 8px 33px rgba(255, 255, 255, 0.3);
+}
 
 .stack-icon {
     margin: 2px; /* Espaçamento entre os ícones */
+    padding-bottom:5px;
 }
 
     .stack-icon img {
