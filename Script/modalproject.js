@@ -351,6 +351,14 @@ function getProjectContent(projectId) {
                                 <a href="https://store.playstation.com/pt-br/concept/10007747" target="_blank" class="social-icon device" style="margin-left: 6px">
                                     <img src="Images/Playstation.png" alt="Github">
                                 </a>
+
+                                 <a href="https://www.xbox.com/pt-BR/games/store/cobra-kai-2-dojos-rising/9NP4WZNSN0NN" target="_blank" class="social-icon device" style="margin-left: 6px">
+                                    <img src="Images/Xbox.png" alt="Github">
+                                </a>
+
+                                <a href="https://www.nintendo.com/pt-br/store/products/cobra-kai-2-dojos-rising-switch/" target="_blank" class="social-icon device" style="margin-left: 6px">
+                                    <img src="Images/Nintendo.png" alt="Github">
+                                </a>
                              
                             </div>
 
