@@ -43,8 +43,8 @@ function openModalAbout(projectId) {
     window.addEventListener('click', outsideClickAbout);
 }
 
-function openModalContact(projectId) {
-    changeClass('contact-modal-content');
+function openModalDemo(projectId) {
+    changeClass('demo-modal-content');
     var modal = document.getElementById("myModal");
     var modalContent = document.getElementById("modalContent");
     // Update modal content based on the project clicked
@@ -57,7 +57,7 @@ function openModalContact(projectId) {
 
     var content = document.getElementById('modal-c');
     content.scrollTop = 0;
-    window.addEventListener('click', outsideClickContact);
+    window.addEventListener('click', outsideClickDemo);
 }
 
 function closeModal() {
@@ -84,6 +84,7 @@ function closeModal() {
 
 function closeModalAbout() {
     var modal = document.getElementById("myModal");
+
     returnBody();
 
     window.removeEventListener('click', outsideClickAbout);
@@ -102,11 +103,13 @@ function closeModalAbout() {
     }, { once: true });
 }
 
-function closeModalContact() {
+function closeModalDemo() {
     var modal = document.getElementById("myModal");
+    var youtubeVideo = document.getElementById("youtubeVideo");
     returnBody();
 
-    window.removeEventListener('click', outsideClickContact);
+    youtubeVideo.src = "";
+    window.removeEventListener('click', outsideClickDemo);
     modal.classList.remove('slide-in-up');
 
     // Add exit animation class
@@ -138,11 +141,11 @@ function outsideClickAbout(event) {
     }
 }
 
-function outsideClickContact(event) {
+function outsideClickDemo(event) {
     var modal = document.getElementById('modal-c');
 
     if (event.target === modal) {
-        closeModalAbout();
+        closeModalDemo();
     }
 }
 
@@ -201,49 +204,25 @@ function getProjectContent(projectId) {
                             </div>
 `                   ;
             break;
-        case 'contact':
+        case 'demo':
             videoId = 'N4vmPq09dN4?si=eyzXwmLVzzDp4Ayt';
             projectContent = `
-                            <div class="contact-title-bg">
-                                <h2 class="project-title">Contact</h2>
-                            </div>
-                         
-
-                            <div class="contact-description-bg">
-                                <div class="contact-description">
-
-                                    <a target="_blank" class="contact-icon" style="margin-left: 6px">
-                                        <img src="Images/email.png">
-                                    </a>
-
-                                    <div class="contact-text">
-                                    <p>
-                                        murilo.glasser@hotmail.com
-                                    </p>
-                                    </div>
-                                </div>
+                            <div class="demo-title-bg">
+                                <h2 class="project-title">Demo reel</h2>
                             </div>
 
-                            <div class="phone-description-bg">
-                                <div class="contact-description">
-
-                                    <a target="_blank" class="contact-icon" style="margin-left: 6px">
-                                        <img src="Images/phone.png">
-                                    </a>
-
-                                    <div class="contact-text">
-                                    <p>
-                                        +5515996003474
-                                    </p>
-                                    </div>
-                                </div>
+                            <div class="demo-video-BG">
+                            <div class="demo-video">
+                                <iframe id="youtubeVideo" width="560" height="315" src="https://www.youtube.com/embed/${videoId}" frameborder="0" allowfullscreen></iframe>
+                            </div>
                             </div>
 
-                            <div class="contact-close">
-                                <span onclick="closeModalContact()" target="_blank" class="social-icon quit">&times;</span>
+                            <div class="demo-close">
+                                <span onclick="closeModalDemo()" target="_blank" class="social-icon quit">&times;</span>
                             </div>
 `                   ;
             break;
+
         case 'project1':
             videoId = 'N4vmPq09dN4?si=eyzXwmLVzzDp4Ayt';
             projectContent = `
