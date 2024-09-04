@@ -217,6 +217,14 @@ function getProjectContent(projectId) {
                             </div>
                             </div>
 
+                            <div class="description-bg">
+                                <div class="project-description">
+                                    <p>
+                                        Welcome! This is my demo reel featuring some of my game development work. Enjoy watching!
+                                    </p>
+                                </div>
+                            </div>
+
                             <div class="demo-close">
                                 <span onclick="closeModalDemo()" target="_blank" class="social-icon quit">&times;</span>
                             </div>
