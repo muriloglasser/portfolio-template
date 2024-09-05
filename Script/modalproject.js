@@ -205,7 +205,7 @@ function getProjectContent(projectId) {
 `                   ;
             break;
         case 'demo':
-            videoId = 'N4vmPq09dN4?si=eyzXwmLVzzDp4Ayt';
+            videoId = '8-dzqkwxN_8?si=amOG1pC8VpQhxe57';
             projectContent = `
                             <div class="demo-title-bg">
                                 <h2 class="project-title">Demo reel</h2>
