@@ -167,8 +167,7 @@ function getProjectContent(projectId) {
                             <div class="description-bg">
                                 <div class="project-description">
                                     <p>
-                                        I'm Murilo Glasser, a Generalist Game Programmer with five years of experience in the gaming industry. I've worked on various platforms, including VR, AR, mobile, web, consoles like Nintendo Switch, PlayStation, Xbox, and Steam. My academic background at Centro Universitário (FACENS) and São Paulo Technical School (ETEC) equipped me with solid skills in digital technology, programming, agile methodologies, and software development.
-                                    </p>
+                                I'm Murilo Glasser, a game programmer with five years of experience across platforms like VR, AR, mobile, web, Nintendo Switch, PlayStation, Xbox, and Steam. My education at FACENS and ETEC provided me with strong skills in digital technology, programming, agile methodologies, and software development.                                    </p>
                                 </div>
                             </div>
 
@@ -205,7 +204,7 @@ function getProjectContent(projectId) {
 `                   ;
             break;
         case 'demo':
-            videoId = '8-dzqkwxN_8?si=amOG1pC8VpQhxe57';
+            videoId = '_7fo_DHHEG8?si=KYGVwhiPbk12p-uz';
             projectContent = `
                             <div class="demo-title-bg">
                                 <h2 class="project-title">Demo reel</h2>
@@ -220,8 +219,7 @@ function getProjectContent(projectId) {
                             <div class="description-bg">
                                 <div class="project-description">
                                     <p>
-                                        Welcome! This is my demo reel featuring some of my game development work. Enjoy watching!
-                                    </p>
+Welcome! This is my demo reel showcasing a selection of my game development projects, highlighting the skills and creativity I've applied across different platforms. I hope you enjoy watching and feel inspired by the work!                                    </p>
                                 </div>
                             </div>
 
