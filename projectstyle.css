@@ -3,7 +3,7 @@ section {
     background-image: url('Images/always-grey.png');
     background-repeat: repeat;
     background-size: 45px;
-    background-color: #3F1F51;
+    background-color: #170028;
     padding: 25px;
     display: flex;
     flex-wrap: wrap;
@@ -14,7 +14,7 @@ section {
 }
 
 body {
-    background-color: #3F1F51;
+    background-color: #28222C;
 }
 
 /* Individual Project Styles */
@@ -85,7 +85,7 @@ body {
 
     /* Project Section Styles */
     section {
-        background-color: #3F1F51;
+        background-color: #170028;
         padding: 205px;
         display: flex;
         flex-wrap: wrap;
@@ -99,7 +99,7 @@ body {
 
     /* Project Section Styles */
     section {
-        background-color: #3F1F51;
+        background-color: #170028;
         padding: 395px;
         display: flex;
         flex-wrap: wrap;
@@ -125,7 +125,7 @@ body {
         width: calc(45% - 1px);
     }
     section {
-        background-color: #3F1F51;
+        background-color: #170028;
         padding: 40px;
         display: flex;
         flex-wrap: wrap;
