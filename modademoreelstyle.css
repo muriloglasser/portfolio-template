@@ -8,9 +8,9 @@
     margin-top: 35px;
     background-color: #a0a0a0;
     line-height: 1;
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(24,21,27,0.2);
     border: 3px solid #ffffff;
-    border-radius: 14px;
+    border-radius: 27px;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
     box-shadow: 0 8px 33px rgba(255, 255, 255, 0.3);
@@ -22,7 +22,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border-radius: 13px;
+    border-radius: 27px;
     border: 2px solid rgba(255, 255, 255, 0.9);
     background-color: #0B0011;
     background-image: url('Images/always-grey.png');
@@ -34,14 +34,14 @@
     padding-right: 20px;
     padding-left: 19px;
     padding: 1000px;
-    box-shadow: 0 8px 33px rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 10px rgba(255, 255, 255, 0.3);
 }
 
 .demo-video iframe {
     margin-bottom: 13px;
     max-height: 70vh;
     border: 3px solid #ffffff;
-    box-shadow: 0 8px 33px rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 10px rgba(255, 255, 255, 0.3);
 }
 
 .demo-video-BG {
@@ -54,9 +54,9 @@
 
 .demo-close {
     border: 3px solid #ffffff;
-    border-radius: 22px;
+    border-radius: 27px;
     width: 100%;
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(24,21,27,0.2);
     color: #ffffff;
     font-size: 50px;
     cursor: pointer;
@@ -64,14 +64,14 @@
     border-top-left-radius: 0;
     border-top-right-radius: 0;
     margin-bottom: 50px;
-    box-shadow: 0 8px 33px rgba(255, 255, 255, 0.3);
+    box-shadow: 0 2px 10px rgba(255, 255, 255, 0.3);
 }
 
 /* Responsiveness for smaller screens */
 @media (max-width: 678px) {
 
     .demo-title-bg {
-        border-radius: 14px;
+        border-radius: 27px;
         border-bottom-left-radius: 0;
         border-bottom-right-radius: 0;
         margin-right: -4.5px; /* Ajuste a quantidade de pixels conforme necessário */
@@ -87,7 +87,7 @@
     .demo-modal-content {
         padding-top: 15px;
         padding-bottom: 15px;
-        border-radius: 25px;
+        border-radius: 27px;
         width: 80%;
         max-height: 90%;
         text-align: center;
@@ -99,7 +99,7 @@
 @media (min-width: 678px) {
 
     .demo-title-bg {
-        border-radius: 14px;
+        border-radius: 27px;
         border-bottom-left-radius: 0;
         border-bottom-right-radius: 0;
         margin-right: -4.5px; /* Ajuste a quantidade de pixels conforme necessário */
@@ -115,7 +115,7 @@
     .demo-modal-content {
         padding-top: 15px;
         padding-bottom: 15px;
-        border-radius: 25px;
+        border-radius: 27px;
         width: 50%;
         max-height: 90%;
         text-align: center;
@@ -127,7 +127,7 @@
 @media (min-width: 1023px) {
 
     .demo-title-bg {
-        border-radius: 14px;
+        border-radius: 27px;
         border-bottom-left-radius: 0;
         border-bottom-right-radius: 0;
         margin-right: -4.5px; /* Ajuste a quantidade de pixels conforme necessário */
@@ -138,7 +138,7 @@
     .demo-modal-content {
         padding-top: 15px;
         padding-bottom: 15px;
-        border-radius: 25px;
+        border-radius: 27px;
         width: 41%;
         max-height: 90%;
         text-align: center;
@@ -150,7 +150,7 @@
 @media (min-width: 1324px) {
 
     .demo-title-bg {
-        border-radius: 14px;
+        border-radius: 27px;
         border-bottom-left-radius: 0;
         border-bottom-right-radius: 0;
         margin-right: -4.5px; /* Ajuste a quantidade de pixels conforme necessário */
@@ -166,7 +166,7 @@
     .demo-modal-content {
         padding-top: 15px;
         padding-bottom: 15px;
-        border-radius: 25px;
+        border-radius: 27px;
         width: 35%;
         max-height: 90%;
         text-align: center;
@@ -178,7 +178,7 @@
 @media (min-width: 1524px) {
 
     .demo-title-bg {
-        border-radius: 14px;
+        border-radius: 27px;
         border-bottom-left-radius: 0;
         border-bottom-right-radius: 0;
         margin-right: -4.5px; /* Ajuste a quantidade de pixels conforme necessário */
@@ -194,7 +194,7 @@
     .demo-modal-content {
         padding-top: 15px;
         padding-bottom: 15px;
-        border-radius: 25px;
+        border-radius: 27px;
         width: 32%;
         max-height: 90%;
         text-align: center;
@@ -206,7 +206,7 @@
 @media (min-width: 1724px) {
 
     .demo-title-bg {
-        border-radius: 14px;
+        border-radius: 27px;
         border-bottom-left-radius: 0;
         border-bottom-right-radius: 0;
         margin-right: -4.5px; /* Ajuste a quantidade de pixels conforme necessário */
@@ -224,7 +224,7 @@
     .demo-modal-content {
         padding-top: 15px;
         padding-bottom: 15px;
-        border-radius: 25px;
+        border-radius: 27px;
         width: 27%;
         max-height: 90%;
         text-align: center;
@@ -236,7 +236,7 @@
 @media (min-width: 2025px) {
 
     .demo-title-bg {
-        border-radius: 14px;
+        border-radius: 27px;
         border-bottom-left-radius: 0;
         border-bottom-right-radius: 0;
         margin-right: -4.5px; /* Ajuste a quantidade de pixels conforme necessário */
@@ -254,7 +254,7 @@
     .demo-modal-content {
         padding-top: 15px;
         padding-bottom: 15px;
-        border-radius: 25px;
+        border-radius: 27px;
         width: 18%;
         max-height: 90%;
         text-align: center;
