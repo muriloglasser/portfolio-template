@@ -204,7 +204,7 @@ function getProjectContent(projectId) {
 `                   ;
             break;
         case 'demo':
-            videoId = '_7fo_DHHEG8?si=KYGVwhiPbk12p-uz';
+            videoId = 'X4AbyjhvVHM?si=X_6ZS1wjPM4crLG3';
             projectContent = `
                             <div class="demo-title-bg">
                                 <h2 class="project-title">Demo reel</h2>
@@ -307,7 +307,7 @@ Welcome! This is my demo reel showcasing a selection of my game development proj
 `                   ;
             break;
         case 'project3':
-            videoId = 'MuOGtenrr8k?si=njIRm4660M5-CjWU';
+            videoId = 'FYDE9CoZ1YU?si=agUJZaT7XYShrXkz';
             projectContent = `
                         <div class="title-bg">
                                 <h2 class="project-title">Food Boy</h2>
@@ -336,12 +336,9 @@ Welcome! This is my demo reel showcasing a selection of my game development proj
                                 <a href="https://store.playstation.com/pt-br/concept/10007747" target="_blank" class="social-icon device" style="margin-left: 6px">
                                     <img src="Images/Playstation.png" alt="Github">
                                 </a>
+                              
 
-                                 <a href="https://www.xbox.com/pt-BR/games/store/cobra-kai-2-dojos-rising/9NP4WZNSN0NN" target="_blank" class="social-icon device" style="margin-left: 6px">
-                                    <img src="Images/Xbox.png" alt="Github">
-                                </a>
-
-                                <a href="https://www.nintendo.com/pt-br/store/products/cobra-kai-2-dojos-rising-switch/" target="_blank" class="social-icon device" style="margin-left: 6px">
+                                <a href="https://www.nintendo.com/pt-br/store/products/food-boy-switch/?srsltid=AfmBOopjCcn7I5iriXm4DA-GRBCFOdWBbRhMmtOxDdE-zqiuR7RvuTuk" target="_blank" class="social-icon device" style="margin-left: 6px">
                                     <img src="Images/Nintendo.png" alt="Github">
                                 </a>
                              
