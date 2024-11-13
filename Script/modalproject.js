@@ -336,6 +336,10 @@ Welcome! This is my demo reel showcasing a selection of my game development proj
                                 <a href="https://store.playstation.com/pt-br/concept/10007747" target="_blank" class="social-icon device" style="margin-left: 6px">
                                     <img src="Images/Playstation.png" alt="Github">
                                 </a>
+
+                                <a href="https://www.xbox.com/en-us/games/store/food-boy/9p6fh6mc3bhh" target="_blank" class="social-icon device" style="margin-left: 6px">
+                                    <img src="Images/Xbox.png" alt="Github">
+                                </a>
                               
 
                                 <a href="https://www.nintendo.com/pt-br/store/products/food-boy-switch/?srsltid=AfmBOopjCcn7I5iriXm4DA-GRBCFOdWBbRhMmtOxDdE-zqiuR7RvuTuk" target="_blank" class="social-icon device" style="margin-left: 6px">
